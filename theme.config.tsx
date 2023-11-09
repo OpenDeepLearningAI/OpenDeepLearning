@@ -31,18 +31,18 @@ const config: DocsThemeConfig = {
     );
   },
   project: {
-    link: "https://github.com/AIPortalGun/AI-Portal-Gun",
+    link: "https://github.com/severus27/AI-Portal-Gun",
   },
   chat: {
     link: "https://discord.gg/tQU9xfcEyE",
   },
-  docsRepositoryBase: "https://github.com/AIPortalGun/AI-Portal-Gun/tree/main/",
+  docsRepositoryBase: "https://github.com/severus27/AI-Portal-Gun/tree/main/",
   footer: {
     text: null,
     component: null,
   },
   feedback: {
-    useLink: () => "https://github.com/AIPortalGun/AI-Portal-Gun/issues/new",
+    useLink: () => "https://github.com/severus27/AI-Portal-Gun/issues/new",
     content: (
       <>
         <span style={{ display: "flex", gap: "10px" }}>
