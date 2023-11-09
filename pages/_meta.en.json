@@ -1,0 +1,18 @@
+{
+  "index": "Intro",
+  "gentle-introduction": "Gentle Introduction",
+  "core-concepts": "Core Concepts",
+  "deep-learning": "Deep Learning",
+  "generative-ai": "Generative AI",
+  "webui": "Web UI for LLMs",
+  "mlops" : "MLOps",
+  "reinforcement-learning": "Reinforcement Learning",
+  "quantumML": "Quantum Machine Learning",
+  "robotics": "AI in Robotics",
+  "healthcare": "AI in Healthcare",
+  "models": "Models",
+  "papers": "Research Papers",
+  "datasets": "Datasets",
+  "notebooks": "Notebooks",
+  "additional-resources": "Additional Resources"
+}

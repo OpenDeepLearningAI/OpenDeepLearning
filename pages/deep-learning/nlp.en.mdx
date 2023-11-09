@@ -1,0 +1,63 @@
+# Natural Language Processing (NLP)
+
+Venture into the fascinating world of NLP, a cutting-edge field of AI that empowers machines to comprehend and interact with human language. With NLP, unlock a myriad of transformative applications, including chatbots, language translation, sentiment analysis for social media, and voice assistants like Siri & Alexa.
+
+<br/>
+
+import Image from "next/image";
+
+<div style={{ position: "relative" }}>
+  <Image
+    src="/static/img/memes/nlpMeme.png"
+    alt="NLP meme"
+    height="300"
+    width="850"
+    priority
+  />
+</div>
+
+### Courses
+
+- [Stanford CS224N](https://www.youtube.com/playlist?list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ) offers a comprehensive course on NLP with Deep Learning. It introduces state-of-the-art research in Deep Learning for NLP, emphasizing the implementation, training, debugging, and expansion of neural network models for diverse language comprehension tasks.
+
+- [Natural Language Processing Specialization](https://www.deeplearning.ai/courses/natural-language-processing-specialization/) by DeepLearning AI, include sentiment analysis, machine translation, text summarization, chatbot development, logistic regression, word vectors, deep learning models (RNNs, LSTMs, GRUs), and more. This specialization comprises four courses:
+  [NLP with Classification and Vector Spaces](https://www.coursera.org/learn/classification-vector-spaces-in-nlp?specialization=natural-language-processing),
+  [NLP with Probabilistic Models](https://www.coursera.org/learn/probabilistic-models-in-nlp?specialization=natural-language-processing),
+  [NLP with Sequence Models](https://www.coursera.org/learn/sequence-models-in-nlp?specialization=natural-language-processing) and
+  [NLP with Attention Models](https://www.coursera.org/learn/attention-models-in-nlp?specialization=natural-language-processing).
+
+### Articles
+
+- [AI Content Generation: Machine Learning Basics](https://www.jonstokes.com/p/ai-content-generation-part-1-machine), [Tasks And Models](https://www.jonstokes.com/p/ai-content-generation-part-2-tasks), [Deep dive into Stable Diffusion](https://www.jonstokes.com/p/getting-started-with-stable-diffusion) and [What’s next](https://www.jonstokes.com/p/ai-content-generation-part-4-whats): This four-part series by Jon Stokes, delivers an extensive overview of content generation, exploring concepts, tools, diverse AI content tasks, their combinations for complex goals, and a deep dive into stable diffusion's core principles and workings.
+
+- [A Beginner’s Guide to Tokens, Vectors, and Embeddings in NLP](https://medium.com/@saschametzger/what-are-tokens-vectors-and-embeddings-how-do-you-create-them-e2a3e698e037) by Sascha Metzger, offers a beginner's guide to NLP essentials. It covers tokens, vectors, and embeddings, fundamental concepts used for text representation and analysis.
+
+### Explainers
+
+- [The Attention Mechanism in Large Language Models](https://www.youtube.com/watch?v=OxCpWwDCDFQ), [The math behind Attention: Keys, Queries, and Values matrices](https://www.youtube.com/watch?v=UPtG_38Oq8o) and [What are Transformer Models and how do they work?](https://www.youtube.com/watch?v=qaWMOYf4ri8&t=276s): Serrano.Academy offers a three-part series exploring attention mechanisms, vital in large language models like GPT-3. It clarifies how attention enables selective input focus during output sequence generation, delves into mathematical concepts supporting DL models, and elucidates transformer models and their functioning.
+
+- [A Complete Overview of Word Embeddings](https://www.youtube.com/watch?v=5MaWmXwxFNQ) by Assembly AI, gain insights into the significance of embeddings, their creation process, and their practical applications.
+
+- [What is Retrieval-Augmented Generation (RAG)?](https://www.youtube.com/watch?v=T-D1OfcDW1M): Explains the framework of RAG and how it can help large language models be more accurate and up-to-date, also provides an anecdote to illustrate how large language models can have undesirable behavior and how RAG can improve factuality and reasoning abilities in NLP tasks.
+
+### Reference
+
+- [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings): OpenAI's embeddings are text-based vector representations that gauge text string relatedness. They're widely used in natural language and code tasks, including semantic search, text classification, and question answering.
+
+### Papers 
+
+- [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781) (2013): Introduced two model architectures for word vector representations derived from large datasets, outperforming existing methods in word similarity tasks with enhanced accuracy and lower computational demands. These vectors excel in measuring syntactic and semantic word similarities.
+
+- [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/pubs/glove.pdf) (2014): Proposed GloVe, a model that learns word meanings from co-occurrence statistics. It uses a global co-occurrence matrix to derive word vectors, demonstrating superior performance in various word analogy and similarity tasks compared to other methods.
+
+- [Deep contextualized word representations](https://arxiv.org/abs/1802.05365) (2018): Introduces novel word representations capturing both meaning and context in sentences. These representations stem from a deep bidirectional language model trained on extensive text. They excel in various NLP tasks, such as sentiment analysis and named entity recognition, surpassing other techniques in performance.
+
+- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) (2018): Presents BERT, a pre-trained deep bidirectional transformer model. Trained on extensive text data with a masked language modeling objective, it excels in natural NLP like question answering and sentiment analysis, surpassing alternative methods in performance and versatility.
+
+- [Attention Is All You Need](https://arxiv.org/abs/1706.03762) (2017): Introduced the groundbreaking concept of the Transformer architecture, an attention-based neural architecture for sequence processing. It outperforms other methods in NLP tasks like machine translation and language modeling, demonstrating its effectiveness in capturing contextual information from input sequences like sentences. [(blog)](https://blog.research.google/2017/08/transformer-novel-neural-network.html)
+
+- [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215) (2014): Introduces the sequence-to-sequence model, a neural network for tasks like machine translation and text summarization. Comprising an encoder and a decoder, it effectively processes input sequences and generates output sequences, outperforming other methods in a range of NLP tasks.
+
+- [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401v4) (2020): Introduces a versatile fine-tuning method for retrieval-augmented generation (RAG) models, combining parametric and non-parametric memory for language generation. They employ a pre-trained neural retriever to fetch Wikipedia passages for input, achieving state-of-the-art results on knowledge-intensive NLP tasks. RAG models offer more precise, diverse, and factual language generation. [(blog)](https://ai.meta.com/blog/retrieval-augmented-generation-streamlining-the-creation-of-intelligent-natural-language-processing-models/)
+
+- [Pretraining Data Mixtures Enable Narrow Model Selection Capabilities in Transformer Models](https://arxiv.org/abs/2311.00871) (2023): 

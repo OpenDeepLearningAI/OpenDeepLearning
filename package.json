@@ -1,0 +1,30 @@
+{
+  "name": "OpenMLGuide",
+  "version": "0.0.1",
+  "description": "OpenMLGuide",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiraiyahiddenleaf/OpenMLGuide.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jiraiyahiddenleaf/OpenMLGuide/issues"
+  },
+  "homepage": "https://github.com/jiraiyahiddenleaf/OpenMLGuide#readme",
+  "dependencies": {
+    "next": "^13.5.4",
+    "nextra": "^2.13.2",
+    "nextra-theme-docs": "^2.13.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.10",
+    "typescript": "^4.9.5"
+  }
+}
