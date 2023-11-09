@@ -18,15 +18,23 @@ import myGif from 'public/gif/medicalAI.gif'
 - [AI in Healthcare Specialization](https://www.coursera.org/specializations/ai-healthcare?) by Stanford University, cover AI basics, medical imaging, working with EHR data, genomics and precision medicine, how to use AI to enhance diagnosis, treatment, delivery of care and examining the impact of AI on society.
   [Introduction to Healthcare](https://www.coursera.org/learn/intro-to-healthcare?specialization=ai-healthcare), [Introduction to Clinical Data](https://www.coursera.org/learn/introduction-clinical-data?specialization=ai-healthcare), [Fundamentals of Machine Learning for Healthcare](https://www.coursera.org/learn/fundamental-machine-learning-healthcare?specialization=ai-healthcare), [Evaluations of AI Applications in Healthcare](https://www.coursera.org/learn/evaluations-ai-applications-healthcare?specialization=ai-healthcare) and [AI in Healthcare Capstone](https://www.coursera.org/learn/ai-in-healthcare-capstone?specialization=ai-healthcare).
 
+### Explainers
+
+- [DeepMind solves protein folding](https://www.youtube.com/watch?v=W7wJDJ56c88&t=834s) by Lex Fridman, celebrates DeepMind's AlphaFold 2 breakthrough in protein folding, a long-standing R&D challenge in biochemistry. It elucidates the significance of protein folding, highlighting AlphaFold 2's application of deep learning for precise 3D structure prediction. 
+
+- [DeepMind's AlphaFold 2 Explained! AI Breakthrough in Protein Folding! What we know (& what we don't)](https://www.youtube.com/watch?v=B9PL__gVxLI&t=1008s) by Yannic Kilcher, emphasizes the critical role of protein folding in biology. It introduces the AlphaFold algorithm, which employs deep learning to predict protein structures accurately. The video also explores how this breakthrough could benefit R&D in drug discover.
+
+- [LLMs in Healthcare: Benchmarks, Applications, and Compliance](https://www.youtube.com/watch?v=NXN-kMWq6aY): This session discusses the progress and challenges of LLMs in healthcare. It highlights benchmarks for healthcare-specific LLMs, a robust architecture for medical chatbots, and comprehensive testing for bias, fairness, robustness, and toxicity.
+
+- [LLMs Encode Clinical Knowledge](https://www.youtube.com/watch?v=saWEFDRuNJc): Researchers are leveraging LLMs for medical applications, introducing MultiMedQA to evaluate their capabilities. [Flan-PaLM](https://huggingface.co/google/flan-t5-xxl), a 540-B parameter LLM, exhibits impressive accuracy on multiple-choice datasets, hinting at LLM potential in medicine [(paper)](https://arxiv.org/abs/2212.13138).
+
 ### LLMs in Healthcare
 
 - [Med-PaLM 2](https://sites.research.google/med-palm/) by Google Research, is an AI model tailored for the medical domain, available for limited testing by select Google Cloud customers. It excels in USMLE-style questions, reaching 'expert' performance on the MedQA dataset, and handling diverse biomedical data types. Healthcare organizations like HCA Healthcare, Mayo Clinic, and Meditech have tested it to augment healthcare workflows.
 
-- [LLMs Encode Clinical Knowledge](https://www.youtube.com/watch?v=saWEFDRuNJc): Researchers are leveraging LLMs for medical applications, introducing MultiMedQA to evaluate their capabilities. Flan-PaLM, a 540-B parameter LLM, exhibits impressive accuracy on multiple-choice datasets, hinting at LLM potential in medicine [(paper)](https://arxiv.org/abs/2212.13138).
-
 - [ClinicalBERT](https://huggingface.co/medicalai/ClinicalBERT) trained on a vast dataset containing 1.2B words related to various diseases. Fine-tuning utilized EHRs from 3 million patient records. ClinicalBERT, initiated from BERT, employs a masked language model training approach. Text segments with randomly replaced tokens (MASKs) challenge the model to predict the original tokens in a contextual context.
 
-- [LLMs in Healthcare: Benchmarks, Applications, and Compliance](https://www.youtube.com/watch?v=NXN-kMWq6aY): This session discusses the progress and challenges of LLMs in healthcare. It highlights benchmarks for healthcare-specific LLMs, a robust architecture for medical chatbots, and comprehensive testing for bias, fairness, robustness, and toxicity.
+- [Gatortron: The Biggest Clinical Language Model](https://www.nvidia.com/en-us/on-demand/session/gtcspring21-s32030/), a clinical language model by the University of Florida & NVIDIA, uses over 90-B words from clinical notes, PubMed, and Wikipedia. With 8.9-B parameters, it excels in clinical NLP tasks, showing improved performance in concept extraction, relation extraction, textual similarity, inference, and medical question answering. As the largest transformer in clinical domains, GatorTron enhances healthcare by understanding and utilizing patient information from [EHRs](https://en.wikipedia.org/wiki/Electronic_health_record).
 
 ### Articles & Papers
 
@@ -36,19 +44,24 @@ import myGif from 'public/gif/medicalAI.gif'
 
 - [Artificial Intelligence in Biological Sciences](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9505413/) explores AI's applications in healthcare and radiology. AI aids efficient billing, promotes NLP for physician notes, and automates pattern recognition in radiology.
 
-- [Strategies for pre-training graph neural networks](https://arxiv.org/pdf/1905.12265.pdf): This publication established the foundation for efficient pre-training techniques applicable to various aspects of drug discovery, including forecasting molecular properties and deducing protein functions [(article)](https://snap.stanford.edu/gnn-pretrain/).
-
-- [Alphafold](https://www.deepmind.com/research/highlighted-research/alphafold) developed by DeepMind, revolutionizes protein structure prediction, using deep learning to decipher the 3D shapes of proteins with remarkable accuracy. Its capabilities hold immense promise for understanding diseases and drug development, making it a game-changer in the field of bioinformatics and molecular biology.
+- [Strategies for pre-training graph neural networks](https://arxiv.org/pdf/1905.12265.pdf): This publication established the foundation for efficient pre-training techniques applicable to various aspects of drug discovery, including forecasting molecular properties and deducing protein functions. [(article)](https://snap.stanford.edu/gnn-pretrain/)
 
 - [Artificial intelligence in radiology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6268174/): This paper explores the use of deep learning techniques in medical image analysis, including image segmentation, classification, and detection. It discusses the challenges and future directions of deep learning in healthcare.
 
 - [Overview of artificial intelligence in medicine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6691444/) delves into AI's potential in healthcare and emphasizes the significance of collaboration and standardization in AI research. It accentuates AI's transformative impact on healthcare while acknowledging concerns regarding human replacement. Collaboration and data standardization are imperative for efficient and ethical AI deployment.
 
-### Explainers
+### Advancements
 
-- [DeepMind solves protein folding](https://www.youtube.com/watch?v=W7wJDJ56c88&t=834s) by Lex Fridman, celebrates DeepMind's AlphaFold 2 breakthrough in protein folding, a long-standing R&D challenge in biochemistry. It elucidates the significance of protein folding, highlighting AlphaFold 2's application of deep learning for precise 3D structure prediction. 
+- [AlphaFold](https://www.deepmind.com/research/highlighted-research/alphafold) by DeepMind, revolutionizes protein structure prediction, using deep learning to decipher the 3D shapes of proteins with remarkable accuracy. Its capabilities hold immense promise for understanding diseases and drug development, making it a game-changer in the field of bioinformatics and molecular biology.
 
-- [DeepMind's AlphaFold 2 Explained! AI Breakthrough in Protein Folding! What we know (& what we don't)](https://www.youtube.com/watch?v=B9PL__gVxLI&t=1008s) by Yannic Kilcher, emphasizes the critical role of protein folding in biology. It introduces the AlphaFold algorithm, which employs deep learning to predict protein structures accurately. The video also explores how this breakthrough could benefit R&D in drug discover.
+- [Evolutionary Scale Modeling](https://github.com/facebookresearch/esm): ESM uses AI to predict protein structures through evolutionary data embeddings. Trained on millions of protein sequences, ESM aids in COVID-19 evolution prediction and disease genetic discovery. Key features include direct structure prediction, atomic-level precision, and leading performance with [ESM-2](https://huggingface.co/docs/transformers/model_doc/esm). [(blog)](https://ai.meta.com/blog/protein-folding-esmfold-metagenomics/)
+
+- [RoseTTAFold](https://www.science.org/doi/10.1126/science.abj8754): By the Baker lab at the University of Washington, utilizes deep learning to swiftly predict protein structures in just ten minutes on a gaming computer. This "three-track" neural network considers protein sequences, amino acid interactions, and potential 3D structures simultaneously. Applied globally, it has solved long-standing biological problems, including understanding poorly known proteins and modeling complex biological assemblies. The latest version, [RF Diffusion](https://github.com/RosettaCommons/RFdiffusion), enhances functional protein prediction with a diffusion model.
+
+- [OmegaFold](https://github.com/HeliXonProtein/OmegaFold), a high-res [De novo protein structure](https://en.wikipedia.org/wiki/De_novo_protein_structure_prediction#:~:text=In%20computational%20biology%2C%20de%20novo,decades%20while%20still%20remaining%20unsolved.) prediction tool by HeliXonProtein, utilizes deep learning and a LLM for accurate protein structure predictions from primary sequences. Open-source and versatile, it aids in applications like COVID-19 evolution prediction and identifying genetic disease causes. [(paper)](https://www.biorxiv.org/content/10.1101/2022.07.21.500999v1)
+
+- [ESMFold](https://huggingface.co/facebook/esmfold_v1), Meta AI's protein prediction tool, employs [Evolutionary Scale Modeling (ESM)](https://huggingface.co/docs/transformers/model_doc/esm) and a trained LLM to predict a protein's 3D structure from its amino acid sequence. With the ESM-2 model, it swiftly predicts one million biological sequences in under a day. Integrated into [ChimeraX](https://www.cgl.ucsf.edu/chimerax/), ESMFold is a powerful tool for protein structure forecasting. [(blog)](https://ai.meta.com/blog/protein-folding-esmfold-metagenomics/)
+
 
 ### Books
 
