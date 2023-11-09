@@ -2,7 +2,7 @@
 
 Embark on an in-depth exploration of LLMs with our comprehensive resources. This deep dive offers a thorough understanding of LLMs, equipping you with advanced knowledge and practical insights in the field.
 
-<br/>
+<br />
 
 import Image from "next/image";
 
@@ -32,12 +32,6 @@ import Image from "next/image";
 
 - [Prompt injection: What’s the worst that can happen?](https://simonwillison.net/2023/Apr/14/worst-that-can-happen/): Prompt injection represents a significant security concern within LLM applications, and while there is no flawless remedy, Simon Willison provides a comprehensive explanation of this issue in his post. Simon consistently produces exceptional content on AI-related topics.
 
-### LLM benchmarks
-
-- [Chatbot Arena](https://lmsys.org/blog/2023-05-03-arena/): an innovative benchmark platform designed for LLMs. [Elo rating system](https://en.wikipedia.org/wiki/Elo_rating_system#:~:text=The%20Elo%20rating%20system%20is,a%20Hungarian%2DAmerican%20physics%20professor.) based leaderboard, inspired by competitive games like chess, encourage the entire community to participate by submitting new models, evaluating their performance, and engaging in the exciting world of LLM battles. [(paper)](https://arxiv.org/abs/2306.05685)
-
-- [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard): A ranking by Hugging Face, comparing open source LLMs across a collection of standard benchmarks and tasks. It enables transparent comparisons on metrics like accuracy and compute efficiency across models to help guide appropriate model selection and usage for various applications.
-
 ### Articles
 
 - [ChatGPT Explained: A Normie's Guide To How It Works](https://www.jonstokes.com/p/chatgpt-explained-a-guide-for-normies) by Jon Stokes, An overview of ChatGPT, focusing on core concepts. Topics include token window, training data, rules, and interactive token usage for improved conversation-like interactions. It clarifies its structure without anthropomorphism.
@@ -56,32 +50,41 @@ import Image from "next/image";
 
 - [New models and developer products announced at DevDay](https://openai.com/blog/new-models-and-developer-products-announced-at-devday): OpenAI launches GPT-4 Turbo (128K context, lower prices), Assistants API for agent-like experiences, DALL-E 3 API, Whisper v3 ASR model, user-friendly GPT customization, Custom Models program, and reduced platform prices.
 
+### LLM benchmarks
 
-### Reference
+- [Chatbot Arena](https://lmsys.org/blog/2023-05-03-arena/): an innovative benchmark platform designed for LLMs. [Elo rating system](https://en.wikipedia.org/wiki/Elo_rating_system#:~:text=The%20Elo%20rating%20system%20is,a%20Hungarian%2DAmerican%20physics%20professor.) based leaderboard, inspired by competitive games like chess, encourage the entire community to participate by submitting new models, evaluating their performance, and engaging in the exciting world of LLM battles. [(paper)](https://arxiv.org/abs/2306.05685)
 
-- [MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models](https://meta-math.github.io/): MetaMath is a project for enhancing mathematical questions for language models. It builds the [MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA) dataset and fine-tunes LLaMA-2 models, creating specialized mathematical reasoning models. Results show MetaMath's significant performance lead on GSM8K and MATH benchmarks, even surpassing models of the same size. The project offers [MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA) data, [pretrained models](https://huggingface.co/meta-math/MetaMath-7B-V1.0), and [code](https://github.com/meta-math/MetaMath) on GitHub for public use, aiding those interested in generating mathematical questions for LLMs. [(paper)](https://arxiv.org/abs/2309.12284)
+- [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard): A ranking by Hugging Face, comparing open source LLMs across a collection of standard benchmarks and tasks. It enables transparent comparisons on metrics like accuracy and compute efficiency across models to help guide appropriate model selection and usage for various applications.
+
+### Explorations
 
 - [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT): An open-source demonstration of GPT-4's capabilities. It benchmarks agent performance, offering internet access, memory management, and text generation. It can complete tasks with minimal human intervention and self-prompt for various requests. [(website)](https://news.agpt.co/)
 
 - [BabyAGI](https://github.com/yoheinakajima/babyagi) is an open-source Python library designed for training and assessing AGI agents in the BabyAI environment. This environment presents simple text-based games where agents must learn navigation and interaction to achieve goals. BabyAGI provides a user-friendly framework for working with the BabyAI environment and offers a collection of pre-trained models to kickstart training.
 
-- [ReAct: Synergizing Reasoning and Acting in Language Models](https://blog.research.google/2022/11/react-synergizing-reasoning-and-acting.html): A novel paradigm fuses reasoning and acting in language models. It excels in language reasoning tasks, producing verbal traces and text actions simultaneously, enhancing dynamic reasoning, and adapting to external input for improved performance. [(paper)](https://arxiv.org/abs/2210.03629)
-
 - [MemGPT](https://memgpt.ai/) expands context in LLMs by managing memory tiers and using interrupts for user interaction. It can analyze large documents, enabling conversational agents to evolve during long-term interactions. It's an OS-inspired system for extended context within LLMs. [(paper)](https://arxiv.org/abs/2310.08560)
 
 - [Ollama](https://github.com/jmorganca/ollama) is a versatile software tool for running LLMs like Llama 2 on your local computer. It streamlines setup, optimizes GPU utilization, and consolidates model components into a single package, allowing for easy customization and model creation. [(website)](https://ollama.ai/)
 
+### Advancements
+
+- [ReAct: Synergizing Reasoning and Acting in Language Models](https://blog.research.google/2022/11/react-synergizing-reasoning-and-acting.html): A novel paradigm fuses reasoning and acting in language models. It excels in language reasoning tasks, producing verbal traces and text actions simultaneously, enhancing dynamic reasoning, and adapting to external input for improved performance. [(paper)](https://arxiv.org/abs/2210.03629)
+
+- [MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models](https://meta-math.github.io/): MetaMath is a project for enhancing mathematical questions for language models. It builds the [MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA) dataset and fine-tunes LLaMA-2 models, creating specialized mathematical reasoning models. Results show MetaMath's significant performance lead on GSM8K and MATH benchmarks, even surpassing models of the same size. The project offers [MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA) data, [pretrained models](https://huggingface.co/meta-math/MetaMath-7B-V1.0), and [code](https://github.com/meta-math/MetaMath) on GitHub for public use, aiding those interested in generating mathematical questions for LLMs. [(paper)](https://arxiv.org/abs/2309.12284)
+
+- [Alpaca: A Strong, Replicable Instruction-Following Model](https://crfm.stanford.edu/2023/03/13/alpaca.html) (2023): Alpaca 7B, a model fine-tuned based on the LLaMA 7B model using 52k instruction-following demonstrations, exhibits qualitative similarity to OpenAI's text-davinci-003 in single-turn instruction following during our initial assessment. Remarkably, Alpaca maintains a compact size and is straightforward and cost-effective to replicate. [(code)](https://github.com/tatsu-lab/stanford_alpaca) [(paper)](https://arxiv.org/pdf/2303.16199.pdf)
+
+### Insights
+
 - [State of AI Report 2023](https://www.stateof.ai/): Provides an exhaustive overview of AI, encompassing technology breakthroughs, industry developments, politics, safety, economic impacts, and future predictions. It encourages contributions from the AI community, fostering informed discussions about AI's future.
+
+- [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223) (2023) : Offers a comprehensive overview of the evolving landscape of LLMs, exploring their capabilities, applications, and challenges in NLP.
 
 - [2023 State of AI in 14 Charts](https://hai.stanford.edu/news/2023-state-ai-14-charts): A snapshot of what happened this past year in AI research, education, policy, hiring, and more.
 
 - [The AI Index Report: Measuring trends in AI](https://aiindex.stanford.edu/report/): By Stanford's HAI, compiling unbiased, globally sourced AI data. The 2023 report encompasses extra self-collected data and fresh analysis, focusing on foundation models, geopolitics, training costs, AI's environmental impact, and public opinion trends.
 
-
 ### Papers
 
-- [Alpaca: A Strong, Replicable Instruction-Following Model](https://crfm.stanford.edu/2023/03/13/alpaca.html) (2023): Alpaca 7B, a model fine-tuned based on the LLaMA 7B model using 52k instruction-following demonstrations, exhibits qualitative similarity to OpenAI's text-davinci-003 in single-turn instruction following during our initial assessment. Remarkably, Alpaca maintains a compact size and is straightforward and cost-effective to replicate. [(code)](https://github.com/tatsu-lab/stanford_alpaca) [(paper)](https://arxiv.org/pdf/2303.16199.pdf)
-
-- [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223) (2023) : Offers a comprehensive overview of the evolving landscape of LLMs, exploring their capabilities, applications, and challenges in NLP. 
 
 - [Sparks of Artificial General Intelligence: Early experiments with GPT-4](https://arxiv.org/abs/2303.12712) (2023): Initial assessment conducted by Microsoft Research on GPT-4, the most sophisticated LLM currently available, in comparison to human cognitive abilities.
