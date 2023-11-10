@@ -7,6 +7,11 @@
   color: #76B900;
 }
 
+/* .nextra-banner-container{
+  background: #76B900 !important;
+  color: #000 !important;
+} */
+
 .nx-w-full .nx-text-primary-600:hover{
   text-decoration: none;
   color: #5a8e01;
