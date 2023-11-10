@@ -20,6 +20,13 @@
   /* text-underline-offset: 1.5px; */
 }
 
+.nextra-callout{
+  background: #21271A !important;
+}
+.nextra-callout .nx-mt-6{
+  color: #76B900;
+}
+
 .nx-mt-6 {
   line-height: 28px;
 }
