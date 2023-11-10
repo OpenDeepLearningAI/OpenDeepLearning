@@ -91,6 +91,14 @@ const config: DocsThemeConfig = {
   nextThemes: {
     defaultTheme: "dark",
   },
+  // banner: {
+  //   key: '2.0-release',
+  //   text: (
+  //     <a href="#" target="_blank">
+  //       Follow us on Twitter
+  //     </a>
+  //   )
+  // }
 };
 
 export default config;
