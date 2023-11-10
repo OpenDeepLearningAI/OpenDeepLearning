@@ -26,7 +26,7 @@ const config: DocsThemeConfig = {
     const { title } = useConfig();
     return (
       <>
-        <link rel="icon" href="/static/img/favicon.png" />
+        <link rel="icon" href="/static/img/favicon2.png" />
       </>
     );
   },
