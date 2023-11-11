@@ -1,5 +1,5 @@
 {
-  "index": "Intro",
+  "index": "AI Portal Gun",
   "gentle-introduction": "Gentle Introduction",
   "core-concepts": "Core Concepts",
   "deep-learning": "Deep Learning",
@@ -9,7 +9,7 @@
   "reinforcement-learning": "Reinforcement Learning",
   "quantum-machine-learning": "Quantum Machine Learning",
   "robotics": "AI in Robotics",
-  "healthcare": "AI in Healthcare",
+  "healthcare": "AI in Healthcare & Biology",
   "models": "Models",
   "papers": "Research Papers",
   "datasets": "Datasets",
