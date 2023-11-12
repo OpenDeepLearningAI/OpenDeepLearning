@@ -63,7 +63,7 @@ const config: DocsThemeConfig = {
     ),
   },
   search: {
-    placeholder: "Search",
+    placeholder: "Search...",
   },
   sidebar: {
     toggleButton: true,
