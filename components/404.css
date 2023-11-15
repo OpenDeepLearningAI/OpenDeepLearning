@@ -37,7 +37,7 @@
 }
 
 /* next & previous page link*/
-.nx-flex .nx-items-center:hover{
+.nx-flex .nx-items-center .nx-gap-1:hover{
   color: #76B900;
 }
 
