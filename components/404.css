@@ -7,6 +7,7 @@
   color: #76B900;
 }
 
+/* banner */
 /* .nextra-banner-container{
   background: #76B900 !important;
   color: #000 !important;
@@ -20,19 +21,24 @@
   /* text-underline-offset: 1.5px; */
 }
 
-
+/* links  */
 .link{
   text-decoration: underline;
   text-decoration-color: #76B900;
   text-underline-offset: 5.5px;
-  text-decoration-thickness: 1.5px;
+  text-decoration-thickness: 1.25px;
 }
 
 .link:hover{
   text-decoration: underline;
-  text-decoration-thickness: 1.5px;
+  text-decoration-thickness: 1.25px;
   text-decoration-color: grey;
   text-underline-offset: 5.5px;
+}
+
+/* next & previous page link*/
+.nx-flex .nx-items-center:hover{
+  color: #76B900;
 }
 
 .nextra-callout{
