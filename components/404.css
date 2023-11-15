@@ -41,12 +41,13 @@
   color: #76B900;
 }
 
-.nextra-callout{
-  background: #21271A !important;
+/* .nextra-callout{
+  background: #F2FCE4 !important;
 }
+
 .nextra-callout .nx-mt-6{
   color: rgb(230,245,230);
-}
+} */
 
 .nx-mt-6 {
   line-height: 28px;
