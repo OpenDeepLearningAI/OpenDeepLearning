@@ -25,15 +25,15 @@
 .link{
   text-decoration: underline;
   text-decoration-color: #76B900;
-  text-underline-offset: 5.5px;
-  text-decoration-thickness: 1.25px;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 1px;
 }
 
 .link:hover{
   text-decoration: underline;
-  text-decoration-thickness: 1.25px;
+  text-decoration-thickness: 1px;
   text-decoration-color: grey;
-  text-underline-offset: 5.5px;
+  text-underline-offset: 5px;
 }
 
 /* next & previous page link*/
