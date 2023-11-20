@@ -61,13 +61,6 @@ ul .nx-mt-6{
   line-height: 28px;
 } */
 
-body {
-  margin: 0;
-  background-color: black;
-  transition: all 0.6s;
-  height: 100%;
-}
-
 #main {
   display: table;
   width: 100%;
