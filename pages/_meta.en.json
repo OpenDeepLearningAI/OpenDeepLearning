@@ -1,16 +1,16 @@
 
 
 {
-  "portalgun": {
+  "index": {
+    "title": "OpenML Guidebook",
+    "type": "page" 
+  },
+  "ai-portal-gun": {
     "title": "AI Portal Gun",
     "type": "page"
   },
   "papers": {
     "title": "Research Paper",
-    "type": "page"
-  },
-  "models": {
-    "title": "Models",
     "type": "page"
   }
 }
