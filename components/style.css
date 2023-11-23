@@ -1,6 +1,12 @@
-/* * {
-  text-decoration: none !important;
-} */
+
+
+.logoName{
+  font-weight: 700;
+}
+
+.subName{
+  font-weight: 400; 
+}
 
 .nx-w-full .nx-text-primary-600{
   text-decoration: none; 
@@ -44,6 +50,7 @@ ul .nx-mt-6{
 .nx-flex .nx-items-center .nx-gap-1:hover{
   color: #76B900;
 }
+
 
 /* .nextra-callout{
   background: #F2FCE4 !important;

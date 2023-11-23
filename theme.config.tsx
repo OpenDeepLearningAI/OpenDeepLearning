@@ -6,9 +6,11 @@ import { useRouter } from "next/router";
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <img src="/logo/logo2.png" width={65} />
-      <span style={{ marginLeft: ".8em" }}>
-        <img src="/logo/nameLogo.png" width={120} />
+      <img src="/static/img/favicon2.png" width={34} />
+      <span style={{ marginLeft: ".5em" , fontSize:"19px", display:"flex"}}>
+        {/* <img src="/logo/logoName.png" width={180} /> */}
+        <span className="logoName">OpenML </span> 
+        <span className="subName" style={{ marginLeft: ".2em"}} >Guidebook </span> 
       </span>
     </>
   ),
@@ -73,12 +75,12 @@ const config: DocsThemeConfig = {
     const { asPath } = useRouter();
     if (asPath == "/") {
       return {
-        titleTemplate: "AI Portal Gun",
+        titleTemplate: "OpenML Guidebook",
       };
     }
     if (asPath !== "/") {
       return {
-        titleTemplate: "%s | AI Portal Gun",
+        titleTemplate: "%s | OpenML Guidebook",
       };
     }
   },
@@ -86,7 +88,6 @@ const config: DocsThemeConfig = {
   primarySaturation: 80,
   toc: {
     backToTop: true,
-    title: "Table of contents",
   },
   nextThemes: {
     defaultTheme: "dark",
