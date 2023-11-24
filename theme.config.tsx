@@ -9,8 +9,8 @@ const config: DocsThemeConfig = {
       <img src="/static/img/favicon2.png" width={34} />
       <span style={{ marginLeft: ".5em" , fontSize:"18px", display:"flex"}}>
         {/* <img src="/logo/logoName.png" width={180} /> */}
-        <span className="logoName">OpenML </span> 
-        <span className="subName" style={{ marginLeft: ".2em"}} >Guidebook </span> 
+        <span className="logoName">OpenML Guide </span> 
+        {/* <span className="subName" style={{ marginLeft: ".2em"}} >Guidebook </span>  */}
       </span>
     </>
   ),
