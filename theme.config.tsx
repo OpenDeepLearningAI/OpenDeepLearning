@@ -7,16 +7,13 @@ const config: DocsThemeConfig = {
   logo: (
     <>
       <img src="/static/img/favicon2.png" width={34} />
-      <span style={{ marginLeft: ".5em" , fontSize:"20px", display:"flex"}}>
+      <span style={{ marginLeft: ".5em" , fontSize:"18px", display:"flex"}}>
         {/* <img src="/logo/logoName.png" width={180} /> */}
         <span className="logoName">OpenML </span> 
         <span className="subName" style={{ marginLeft: ".2em"}} >Guidebook </span> 
       </span>
     </>
   ),
-  // navbar: {
-  //   extraContent: <TwitterXIcon />,
-  // },
   i18n: [
     { locale: "en", text: "English" },
     // { locale: "zh", text: "中文" },

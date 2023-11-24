@@ -1,14 +1,17 @@
 {
   "index": {
     "type": "page",
-    "display": "hidden"
+    "display": "hidden",
+    "theme": {
+      "layout": "raw"
+    }
   },
   "ai-portal-gun": {
     "title": "AI Portal Gun",
     "type": "page"
   },
   "papers": {
-    "title": "Research Paper",
+    "title": "Research Papers",
     "type": "page"
   },
   "about": {
