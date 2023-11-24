@@ -1,9 +1,8 @@
-
-
-{"index": {
-  "type": "page",
-  "display": "hidden"
-},
+{
+  "index": {
+    "type": "page",
+    "display": "hidden"
+  },
   "ai-portal-gun": {
     "title": "AI Portal Gun",
     "type": "page"
