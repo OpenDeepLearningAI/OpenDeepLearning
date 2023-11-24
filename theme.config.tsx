@@ -14,6 +14,9 @@ const config: DocsThemeConfig = {
       </span>
     </>
   ),
+  // navbar: {
+  //   extraContent: <TwitterXIcon />,
+  // },
   i18n: [
     { locale: "en", text: "English" },
     // { locale: "zh", text: "中文" },

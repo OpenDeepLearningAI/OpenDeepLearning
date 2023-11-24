@@ -8,13 +8,11 @@
 
 .subName{
   font-weight: 400; 
-  font-family: 'Roboto', sans-serif;
 }
 
 .nx-absolute{
   font-weight: 400 !important;
 }
-
 
 .nx-w-full .nx-text-primary-600{
   text-decoration: none; 
