@@ -1,10 +1,9 @@
 
 
-{
-  "index": {
-    "title": "OpenML Guidebook",
-    "type": "page" 
-  },
+{"index": {
+  "type": "page",
+  "display": "hidden"
+},
   "ai-portal-gun": {
     "title": "AI Portal Gun",
     "type": "page"
@@ -12,5 +11,12 @@
   "papers": {
     "title": "Research Paper",
     "type": "page"
+  },
+  "about": {
+    "type": "page",
+    "title": "About",
+    "theme": {
+      "typesetting": "article"
+    }
   }
 }
