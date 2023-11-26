@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <img src="/static/img/favicon2.png" width={34} />
+      <img src="/logo/logo.png" width={34} />
       <span style={{ marginLeft: ".5em" , fontSize:"18px", display:"flex"}}>
         {/* <img src="/logo/logoName.png" width={180} /> */}
         <span className="logoName">OpenML Guide </span> 
@@ -28,7 +28,7 @@ const config: DocsThemeConfig = {
     const { title } = useConfig();
     return (
       <>
-        <link rel="icon" href="/static/img/favicon2.png" />
+        <link rel="icon" href="/logo/logo.png" />
       </>
     );
   },
