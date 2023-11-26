@@ -35,11 +35,10 @@ ul .nx-mt-6{
 
 /* links  */
 .link{
-  color: #AC7EE1;
-  /* text-decoration: underline;
-  text-decoration-color: #76B900;
+  text-decoration: underline;
+  text-decoration-color: #28BDA0;
   text-underline-offset: 5px;
-  text-decoration-thickness: 1.25px; */
+  text-decoration-thickness: 1px;
 }
 
 .link:hover{
