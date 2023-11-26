@@ -84,8 +84,8 @@ const config: DocsThemeConfig = {
       };
     }
   },
-  primaryHue: 85,
-  primarySaturation: 80,
+  primaryHue: 168,
+  primarySaturation: 65,
   toc: {
     backToTop: true,
   },

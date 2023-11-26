@@ -12,7 +12,7 @@
 
 .nx-w-full .nx-text-primary-600{
   text-decoration: none; 
-  color: #76B900;
+  color: #28BDA0;
 }
 
 ul .nx-mt-6{
@@ -27,7 +27,7 @@ ul .nx-mt-6{
 
 .nx-w-full .nx-text-primary-600:hover{
   text-decoration: none;
-  color: #5a8e01;
+  color: #28BDA0;
   /* text-decoration-thickness: 0.1px; */
   /* text-decoration-color: grey; */
   /* text-underline-offset: 1.5px; */
@@ -35,10 +35,11 @@ ul .nx-mt-6{
 
 /* links  */
 .link{
-  text-decoration: underline;
+  color: #AC7EE1;
+  /* text-decoration: underline;
   text-decoration-color: #76B900;
   text-underline-offset: 5px;
-  text-decoration-thickness: 1.25px;
+  text-decoration-thickness: 1.25px; */
 }
 
 .link:hover{
