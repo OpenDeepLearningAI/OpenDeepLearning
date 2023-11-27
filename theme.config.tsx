@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <img src="/logo/logo.png" width={34} />
+      <img src="/logo/logo.png" width={33} />
       <span style={{ marginLeft: ".5em" , fontSize:"18px", display:"flex"}}>
         {/* <img src="/logo/logoName.png" width={180} /> */}
         <span className="logoName">OpenML Guide </span> 
@@ -75,12 +75,12 @@ const config: DocsThemeConfig = {
     const { asPath } = useRouter();
     if (asPath == "/") {
       return {
-        titleTemplate: "OpenML Guidebook",
+        titleTemplate: "OpenML Guide",
       };
     }
     if (asPath !== "/") {
       return {
-        titleTemplate: "%s | OpenML Guidebook",
+        titleTemplate: "%s | OpenML Guide",
       };
     }
   },
