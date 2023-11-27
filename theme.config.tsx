@@ -34,21 +34,21 @@ const config: DocsThemeConfig = {
     );
   },
   project: {
-    link: "https://github.com/severus27/AI-Portal-Gun",
+    link: "https://github.com/severus27/OpenML-Guide",
   },
   chat: {
-    link: "https://discord.gg/tQU9xfcEyE",
+    link: "https://discord.gg/QgZHExcssR",
   },
   navbar: {
     extraContent: <FaXTwitter className="twitter_icon"/>
   },
-  docsRepositoryBase: "https://github.com/severus27/AI-Portal-Gun/tree/main/",
+  docsRepositoryBase: "https://github.com/severus27/OpenML-Guide/tree/main/",
   footer: {
     text: null,
     component: null,
   },
   feedback: {
-    useLink: () => "https://github.com/severus27/AI-Portal-Gun/issues/new",
+    useLink: () => "https://github.com/severus27/OpenML-Guide/issues/new",
     content: (
       <>
         <span style={{ display: "flex", gap: "10px" }}>
@@ -99,7 +99,7 @@ const config: DocsThemeConfig = {
   banner: {
     key: 'OpenML Guide',
     text: (
-      <a href="#" target="_blank">
+      <a href="https://github.com/severus27/OpenML-Guide" target="_blank">
         Show some love to the OpenML Guide on GitHub—hit it up with a ⭐! 
       </a>
     )
