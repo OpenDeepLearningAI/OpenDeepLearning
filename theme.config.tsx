@@ -40,12 +40,6 @@ const config: DocsThemeConfig = {
   chat: {
     link: "https://discord.gg/tQU9xfcEyE",
   },
-  navbar: {
-    extraContent:
-    <Link to="https://twitter.com/OpenMLGuide" className="twitter_icon">
-      <FaXTwitter/>
-    </Link>
-  },
   docsRepositoryBase: "https://github.com/severus27/AI-Portal-Gun/tree/main/",
   footer: {
     text: null,
