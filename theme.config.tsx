@@ -3,7 +3,6 @@ import { DocsThemeConfig } from "nextra-theme-docs";
 import { useConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
 import { FaXTwitter } from "react-icons/fa6";
-import { Link } from 'react-router-dom';
 
 const config: DocsThemeConfig = {
   logo: (
@@ -39,6 +38,9 @@ const config: DocsThemeConfig = {
   },
   chat: {
     link: "https://discord.gg/tQU9xfcEyE",
+  },
+  navbar: {
+    extraContent: <FaXTwitter className="twitter_icon"/>
   },
   docsRepositoryBase: "https://github.com/severus27/AI-Portal-Gun/tree/main/",
   footer: {
@@ -94,14 +96,14 @@ const config: DocsThemeConfig = {
   nextThemes: {
     defaultTheme: "dark",
   },
-  // banner: {
-  //   key: '2.0-release',
-  //   text: (
-  //     <a href="#" target="_blank">
-  //       Follow us on Twitter
-  //     </a>
-  //   )
-  // }
+  banner: {
+    key: 'OpenML Guide',
+    text: (
+      <a href="#" target="_blank">
+        Show some love to the OpenML Guide on GitHub—hit it up with a ⭐! 
+      </a>
+    )
+  }
 };
 
 export default config;
