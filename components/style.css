@@ -34,7 +34,10 @@ ul .nx-mt-6{
 /* ------------------- */
 
 /* icon hover */
-.nx-mx-auto path:hover, svg:hover{
+.nx-w-8 svg:hover{
+  color: #000;
+ } 
+.nx-mx-auto svg:hover{
  color: #76B900;
 }
 /* ------------------- */
