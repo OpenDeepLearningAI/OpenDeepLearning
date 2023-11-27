@@ -33,6 +33,10 @@ ul .nx-mt-6{
 } 
 /* ------------------- */
 
+path:hover, svg:hover{
+ color: #76B900;
+}
+
 .nx-w-full .nx-text-primary-600:hover{
   text-decoration: none;
   color: #5a8e01;
