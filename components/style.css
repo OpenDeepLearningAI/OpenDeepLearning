@@ -28,6 +28,10 @@ ul .nx-mt-6{
   background: #76B900 !important;
   color: #000 !important;
 }
+.nextra-banner-container .nx-w-full{
+  font-weight: 600 !important;
+} 
+/* ------------------- */
 
 .nx-w-full .nx-text-primary-600:hover{
   text-decoration: none;
