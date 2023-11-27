@@ -1,9 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 .logoName{
   font-weight: 600;
-  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
 }
 
 .nx-absolute{
