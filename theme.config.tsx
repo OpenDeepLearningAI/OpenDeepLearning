@@ -2,6 +2,8 @@ import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
 import { useConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
+import { FaXTwitter } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 const config: DocsThemeConfig = {
   logo: (
@@ -37,6 +39,12 @@ const config: DocsThemeConfig = {
   },
   chat: {
     link: "https://discord.gg/tQU9xfcEyE",
+  },
+  navbar: {
+    extraContent:
+    <Link to="https://twitter.com/OpenMLGuide" className="twitter_icon">
+      <FaXTwitter/>
+    </Link>
   },
   docsRepositoryBase: "https://github.com/severus27/AI-Portal-Gun/tree/main/",
   footer: {
