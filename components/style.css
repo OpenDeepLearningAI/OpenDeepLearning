@@ -33,8 +33,18 @@ ul .nx-mt-6{
 } 
 /* ------------------- */
 
+/* icon hover */
 path:hover, svg:hover{
  color: #76B900;
+}
+/* ------------------- */
+
+/* links  */
+.link{
+  text-decoration: underline;
+  text-decoration-color: #76B900;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 1.2px;
 }
 
 .nx-w-full .nx-text-primary-600:hover{
@@ -45,25 +55,19 @@ path:hover, svg:hover{
   /* text-underline-offset: 1.5px; */
 }
 
-/* links  */
-.link{
-  text-decoration: underline;
-  text-decoration-color: #76B900;
-  text-underline-offset: 5px;
-  text-decoration-thickness: 1.2px;
-}
-
 .link:hover{
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-decoration-color: grey;
   text-underline-offset: 5px;
 }
+/* ------------------- */
 
 /* next & previous page link*/
 .nx-flex .nx-items-center .nx-gap-1:hover{
   color: #76B900;
 }
+/* ------------------- */
 
 
 /* .nextra-callout{
