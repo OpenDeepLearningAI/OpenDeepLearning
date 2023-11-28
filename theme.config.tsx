@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <img src="/logo/logo.png" width={33} />
+      <img src="/logo/logo.png" width={30} />
       <span style={{ marginLeft: ".5em" , fontSize:"18px", display:"flex"}}>
         {/* <img src="/logo/logoName.png" width={180} /> */}
         <span className="logoName">OpenML Guide </span> 
