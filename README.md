@@ -1,9 +1,9 @@
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/AIPortalGun)](https://twitter.com/AIPortalGun)
 [![Discord](https://img.shields.io/discord/1159002716371165194?logo=discord&label=AI%20Portal%20Gun&labelColor=%23000000&color=%2377BA00)](https://discord.gg/RHWdwEaY4m)
 
-# AI Portal Gun
+# OpenML Guide
 
-The AI Portal Gun is a comprehensive resource that offers a smooth path from AI fundamentals to advanced frontiers. It is designed to keep you up to date with the latest developments in the AI universe and provide you with the knowledge and skills you need to become an expert in the field. The website is accessible to anyone interested in AI, from novices to seasoned professionals.
+The OpenML Guide is a comprehensive resource that offers a smooth path from AI fundamentals to advanced frontiers. It is designed to keep you up to date with the latest developments in the AI universe and provide you with the knowledge and skills you need to become an expert in the field. The website is accessible to anyone interested in AI, from novices to seasoned professionals.
 
 
 ## Contributing
