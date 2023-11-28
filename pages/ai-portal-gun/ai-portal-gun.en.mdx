@@ -52,4 +52,17 @@ Consider your feedback as the algorithmic tweak that fine-tunes our ML guide for
 
 ### Special Thanks
 
-Our heartfelt 💚 gratitude [Stanford Online](https://online.stanford.edu/), [DeepLearning AI](https://www.deeplearning.ai/), [Fast.AI](https://www.fast.ai/), [3Blue1Brown](https://www.youtube.com/@3blue1brown), [Hugging Face](https://huggingface.co/), [Coursera](http://coursera.org/) and many others for their unwavering commitment to education and dedication to making high-quality resources accessible to all.
+Our heartfelt 💚 gratitude [Stanford Online](https://online.stanford.edu/), [MIT OpenCourseWare](https://ocw.mit.edu/), [DeepLearning AI](https://www.deeplearning.ai/), [Fast.AI](https://www.fast.ai/), [3Blue1Brown](https://www.youtube.com/@3blue1brown), [Hugging Face](https://huggingface.co/), [Coursera](http://coursera.org/) and many others for their unwavering commitment to education and dedication to making high-quality resources accessible to all.
+
+import { Cards, Card } from 'nextra/components'
+import { CardsIcon, OneIcon, WarningIcon } from '../../icons'
+ 
+<Cards>
+  <Card icon={<WarningIcon />} title="Gentle Introdution" href="/ai-portal-gun/gentle-introduction/" />
+  <Card icon={<CardsIcon />} title="Core Concepts" href="/ai-portal-gun/core-concepts/" />
+  <Card icon={<OneIcon />} title="Deep Learning" href="/ai-portal-gun/deep-learning/" />
+  <Card icon={<CardsIcon />} title="Generative AI" href="/ai-portal-gun/generative-ai/" />
+  <Card icon={<OneIcon />} title="LLMs" href="/ai-portal-gun/models/" />
+  <Card icon={<CardsIcon />} title="MLOps" href="/ai-portal-gun/mlops/" />
+  <Card icon={<OneIcon />} title="Reinforcement Learning" href="/ai-portal-gun/reinforcement-learning/" />
+</Cards>
