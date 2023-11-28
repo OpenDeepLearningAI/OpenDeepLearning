@@ -1,7 +1,7 @@
 {
-  "name": "AI Portal Gun",
+  "name": "OpenML Guide",
   "version": "0.0.1",
-  "description": "AI Portal Gun",
+  "description": "OpenML Guide",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jiraiyahiddenleaf/OpenMLGuide.git"
+    "url": "git+https://github.com/severus27/OpenML-Guide.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jiraiyahiddenleaf/OpenMLGuide/issues"
+    "url": "https://github.com/severus27/OpenML-Guide/issues"
   },
-  "homepage": "https://github.com/jiraiyahiddenleaf/OpenMLGuide#readme",
+  "homepage": "https://github.com/severus27/OpenML-Guide#readme",
   "dependencies": {
     "next": "^14.0.2",
     "nextra": "^2.13.2",
