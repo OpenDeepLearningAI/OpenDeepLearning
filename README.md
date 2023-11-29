@@ -1,6 +1,6 @@
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/OpenMLGuide)](https://twitter.com/OpenMLGuide)
 [![Discord](https://img.shields.io/discord/1159002716371165194?logo=discord&label=Open%20ML%20Guide)](https://discord.gg/kYYatgzV4p)
-![Website](https://img.shields.io/website?down_message=offline%20%3A%28&up_message=http://openmlguide.org/&url=https%3A%2F%2Fhttp://openmlguide.org/)
+[![Website](https://img.shields.io/badge/website-you_openmlguide.org-green)](http://openmlguide.org/)
 
 
 
