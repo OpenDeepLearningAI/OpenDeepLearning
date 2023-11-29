@@ -129,13 +129,3 @@ ul .nx-mt-6 {
   }
 }
 
-
-.home_img{
-  margin: 0;
-  overflow: hidden;
-  position: absolute;
-  top: -33%; 
-  right: -33%; 
-  width: 66%; 
-  height: auto;  
-}
