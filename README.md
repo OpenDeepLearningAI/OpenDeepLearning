@@ -3,8 +3,9 @@
 
 # OpenML Guide
 
-The OpenML Guide is a comprehensive resource that offers a smooth path from AI fundamentals to advanced frontiers. It is designed to keep you up to date with the latest developments in the AI universe and provide you with the knowledge and skills you need to become an expert in the field. The website is accessible to anyone interested in AI, from novices to seasoned professionals.
+The [OpenML Guide](http://openmlguide.org/) is your go-to for enhancing AI expertise, offering a clear progression from basics to advanced concepts. Stay current with the latest AI innovations that reshape the field, accessing free, high-quality resources such as courses, books, tutorials, and research papers. Whether you're starting out or an expert, our open-source initiative is dedicated to streamlining your learning path and aiding mastery in the field.
 
+Our goal is to simplify your learning journey with a clear roadmap to mastery.
 
 ## Contributing
 
