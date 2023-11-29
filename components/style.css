@@ -74,6 +74,11 @@ ul .nx-mt-6 {
 /* ------------------- */
 
 /* next & previous page link*/
+.nx-flex .nx-items-center .nx-gap-1{
+  height: 20px;
+  width: 20px;
+}
+
 .nx-flex .nx-items-center .nx-gap-1:hover {
   color: #76b900;
 }
