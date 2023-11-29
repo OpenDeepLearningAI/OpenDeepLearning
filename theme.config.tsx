@@ -59,7 +59,7 @@ const config: DocsThemeConfig = {
     content: (
       <>
         <span style={{ display: "flex", gap: "10px" }}>
-          <FaGithub width={18}/>
+          <FaGithub style={{ width:"18px", height: "18px"}}/>
           <span> Report an issue </span>
         </span>
       </>
@@ -69,7 +69,7 @@ const config: DocsThemeConfig = {
     text: (
       <>
         <span style={{ display: "flex", gap: "10px" }}>
-          <MdEdit width={18}/>
+          <MdEdit style={{ width:"18px", height: "18px"}}/>
           <span> Edit this Page </span>
         </span>
       </>
