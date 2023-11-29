@@ -74,7 +74,7 @@ ul .nx-mt-6 {
 /* ------------------- */
 
 /* next & previous page link*/
-.nx-flex .nx-items-center .nx-gap-1{
+.nx-flex .nx-items-center .nx-gap-1 svg{
   height: 20px;
   width: 20px;
 }
