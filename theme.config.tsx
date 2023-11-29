@@ -3,7 +3,7 @@ import { DocsThemeConfig } from "nextra-theme-docs";
 import { useConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
 import { FaXTwitter } from "react-icons/fa6";
-import { MdEdit } from "react-icons/md";
+import { MdOutlineEdit } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import Link from 'next/link'
 
@@ -69,7 +69,7 @@ const config: DocsThemeConfig = {
     text: (
       <>
         <span style={{ display: "flex", gap: "10px" }}>
-          <MdEdit style={{ width:"18px", height: "18px"}}/>
+        <MdOutlineEdit style={{ width:"18px", height: "18px"}}/>
           <span> Edit this Page </span>
         </span>
       </>
