@@ -1,53 +1,63 @@
-
-.logoName{
+.logoName {
   font-weight: 600;
   font-size: 18px;
 }
 
-.twitter_icon{
+.twitter_icon {
   height: 24px;
   width: 24px;
-  margin-left: .5em;
+  margin-left: 0.5em;
 }
 
-.nx-absolute{
+.nx-absolute {
   font-weight: 400 !important;
 }
 
-.nx-w-full .nx-text-primary-600{
-  text-decoration: none; 
-  color: #76B900;
+.nx-w-full .nx-text-primary-600 {
+  text-decoration: none;
+  color: #76b900;
 }
 
-ul .nx-mt-6{
+ul .nx-mt-6 {
   padding-bottom: 10px;
 }
 
 /* banner */
-.nextra-banner-container{
-  background: #76B900 !important;
+.nextra-banner-container {
+  background: #76b900 !important;
   color: #000 !important;
 }
 /* ------------------- */
 
-/* icon hover */
-.nx-w-8 svg:hover{
+/* icons */
+.nx-w-8 svg:hover {
   color: #000;
- } 
-.nx-mx-auto svg:hover{
- color: #76B900;
+}
+
+.nx-mx-auto svg:hover {
+  color: #76b900;
+}
+
+.nx-w-full .nx-flex svg {
+  height: 24px;
+  width: 24px;
+}
+
+.nextra-breadcrumb svg {
+  height: 14px !important;
+  width: 14px !important;
 }
 /* ------------------- */
 
 /* links  */
-.link{
+.link {
   text-decoration: underline;
-  text-decoration-color: #76B900;
+  text-decoration-color: #76b900;
   text-underline-offset: 5px;
   text-decoration-thickness: 1.2px;
 }
 
-.nx-w-full .nx-text-primary-600:hover{
+.nx-w-full .nx-text-primary-600:hover {
   text-decoration: none;
   color: #5a8e01;
   /* text-decoration-thickness: 0.1px; */
@@ -55,7 +65,7 @@ ul .nx-mt-6{
   /* text-underline-offset: 1.5px; */
 }
 
-.link:hover{
+.link:hover {
   text-decoration: underline;
   text-decoration-thickness: 1.2px;
   text-decoration-color: grey;
@@ -64,15 +74,10 @@ ul .nx-mt-6{
 /* ------------------- */
 
 /* next & previous page link*/
-.nx-flex .nx-items-center .nx-gap-1:hover{
-  color: #76B900;
+.nx-flex .nx-items-center .nx-gap-1:hover {
+  color: #76b900;
 }
 /* ------------------- */
-
-.nx-w-full .nx-flex svg{
-  height: 24px;
-  width: 24px;
-}
 
 /* .nextra-callout{
   background: #F2FCE4 !important;
