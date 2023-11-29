@@ -3,6 +3,8 @@ import { DocsThemeConfig } from "nextra-theme-docs";
 import { useConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
 import { FaXTwitter } from "react-icons/fa6";
+import Link from 'next/link'
+
 
 const config: DocsThemeConfig = {
   logo: (
@@ -40,7 +42,10 @@ const config: DocsThemeConfig = {
     link: "https://discord.gg/QgZHExcssR",
   },
   navbar: {
-    extraContent: <FaXTwitter className="twitter_icon"/>
+    extraContent:
+    <Link href="https://twitter.com/OpenMLGuide" target="_blank">
+        <FaXTwitter className="twitter_icon"/>
+    </Link>
   },
   docsRepositoryBase: "https://github.com/severus27/OpenML-Guide/tree/main/",
   footer: {
