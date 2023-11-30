@@ -129,3 +129,39 @@ ul .nx-mt-6 {
   }
 }
 
+
+/* Home Image */
+
+.main_page{
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  height: calc(100vh - 150px);
+  position: relative;
+}
+
+.main_page h1{
+  font-size: 3rem;
+  margin-top: 5rem;
+}
+
+.home_image{
+  position: absolute;
+  bottom: 5rem;
+  left: -3rem;
+}
+
+.home_image2{
+  position: absolute;
+  top: -4rem;
+  right: -3rem;
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 1000px) {
+  .home_image, .home_image2{
+    width: 180px;
+    height: auto;
+  }
+}
+
