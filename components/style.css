@@ -158,6 +158,10 @@ ul .nx-mt-6 {
   transform: rotate(180deg);
 }
 
+.text{
+  display: flex;
+}
+
 @media screen and (max-width: 1000px) {
   .home_image, .home_image2{
     width: 180px;
