@@ -164,7 +164,7 @@ ul .nx-mt-6 {
 }
 
 .text h1{
-  font-size: 67px;
+  font-size: 65px;
   font-weight: 700;
   line-height: 75px;
   letter-spacing: -1.92px;
@@ -173,7 +173,7 @@ ul .nx-mt-6 {
 .text h3{
   font-size: 20px;
   line-height: 33px;
-  margin-top: 30px;
+  margin-top: 35px;
 }
 
 @media screen and (max-width: 1000px) {
