@@ -158,8 +158,17 @@ ul .nx-mt-6 {
   transform: rotate(180deg);
 }
 
-.text{
-  display: flex;
+.text h1{
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 77px;
+  letter-spacing: -1.92px;
+}
+
+.text h3{
+  font-size: 20px;
+  line-height: 33px;
+  margin-top: 25px;
 }
 
 @media screen and (max-width: 1000px) {
