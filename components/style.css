@@ -160,6 +160,7 @@ ul .nx-mt-6 {
 
 .text{
   text-align: center;
+  margin-top: 5%;
 }
 
 .text h1{
@@ -182,40 +183,68 @@ ul .nx-mt-6 {
   }
 }
 
-.btn a{
-  color: #000;
-  text-decoration:none;
-  text-align: center;
-  display:block; /* important */
+.btn{
+  display: flex;
+  padding-top: 28px;
 }
 
-.btn, .link{
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;  
+.btn a{
+  text-decoration:none;
+  text-align: center;
+  display:block; 
+}
+
+.link1, .link2{
   margin-top: 10px;
+  display:flex;
 }
 
 .btn{
-  height: 50px;
-  overflow: hidden;
-  width: 140px;
-  background-color: #76B900;
   margin-top: 40px !important;
   font-size: 18px;
-  border-radius: 20px;
   font-weight: 600;
+  gap: 45px;
+  justify-content: center;
 }
 
-.btn:hover{
-   background-color: #5a8e01;
+.btn1{
+  height: 50px;
+  width: 160px;
+  background-color: #76b900;
+  color: #000;
 }
 
-.btn a:hover{
-  text-decoration: none;
+.btn1:hover{
+  background-color: #5a8e01;
+  color: #000;
 }
+
+.btn2{
+  color: white;
+  background-color: #111111;
+  height: 50px;
+  width: 160px;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+}
+
+
+.link1, .link2{
+  justify-content: center;
+  gap: 6px;
+}
+
+.link1 .icon, .link2 .icon{
+  margin-top: 4px;
+}
+
+.btn a{
+  display: flex;
+  height: 50px;
+  width: 160px;
+}
+
 
 
 /* **************************** */
