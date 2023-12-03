@@ -135,7 +135,7 @@ ul .nx-mt-6 {
   display: flex;
   justify-content: center;
   overflow: hidden;
-  height: calc(100vh - 150px);
+  height: 1000px;
   position: relative;
 }
 
@@ -147,6 +147,7 @@ ul .nx-mt-6 {
 .home_image{
   position: absolute;
   bottom: 5rem;
+  top: 30px;
   left: -6rem;
   transform: rotate(-10deg);
 }
