@@ -2,12 +2,7 @@
 [![Discord](https://img.shields.io/discord/1159002716371165194?logo=discord&label=Open%20ML%20Guide)](https://discord.gg/kYYatgzV4p)
 [![Website](https://img.shields.io/badge/website-openmlguide.org-green)](http://openmlguide.org/)
 
-<a href="https://www.openmlguide.org/" style="text-decoration: none">
-  <div style="display: flex">
-       <img src="public/logo/logo.svg" width="35"/>
-       <h1 style="margin-left: 8px">OpenML Guide</h1>
-  </div>
-</a>
+# OpenML Guide
 
 The [OpenML Guide](http://openmlguide.org/) is your go-to for enhancing AI expertise, offering a clear progression from basics to advanced concepts. Stay current with the latest AI innovations that reshape the field, accessing free, high-quality resources such as courses, books, tutorials, and research papers. Whether you're starting out or an expert, our open-source initiative is dedicated to streamlining your learning path and aiding mastery in the field.
 
