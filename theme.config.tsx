@@ -68,7 +68,7 @@ const config: DocsThemeConfig = {
       <>
         <span style={{ display: "flex", gap: "10px" }}>
           <MdEdit style={{ width:"18px", height: "18px"}}/>
-          <span> Edit this Page </span>
+          <span> Edit this page </span>
         </span>
       </>
     ),
