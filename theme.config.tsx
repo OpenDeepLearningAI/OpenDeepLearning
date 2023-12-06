@@ -12,7 +12,7 @@ const config: DocsThemeConfig = {
   logo: (
     <>
       <img src="/logo/logo.png" width={33} />
-      <span style={{ marginLeft: ".2em" , fontSize:"20px"}}>
+      <span style={{ marginLeft: ".1em" , fontSize:"20px"}}>
         <span className="logoName">OpenML Guide </span> 
       </span>
     </>
