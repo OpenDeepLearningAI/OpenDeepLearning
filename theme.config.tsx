@@ -11,8 +11,8 @@ import Link from 'next/link'
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <img src="/logo/logo.svg" width={33} />
-      <span style={{ marginLeft: ".4em" , fontSize:"20px"}}>
+      <img src="/logo/logo.png" width={33} />
+      <span style={{ marginLeft: ".2em" , fontSize:"20px"}}>
         <span className="logoName">OpenML Guide </span> 
       </span>
     </>
@@ -31,7 +31,7 @@ const config: DocsThemeConfig = {
     const { title } = useConfig();
     return (
       <>
-        <link rel="icon" href="/logo/logo.svg" />
+        <link rel="icon" href="/logo/logo.png" />
       </>
     );
   },
