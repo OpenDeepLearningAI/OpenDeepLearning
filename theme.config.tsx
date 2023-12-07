@@ -11,7 +11,7 @@ import Link from 'next/link'
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <img src="/logo/logo.png" width={25} />
+      <img src="/logo/logo.png" width={24} />
       <span style={{ marginLeft: ".4em" , fontSize:"20px"}}>
         <span className="logoName">OpenML Guide </span> 
       </span>
