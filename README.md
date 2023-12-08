@@ -1,9 +1,11 @@
 
-<a href="https://www.openmlguide.org/" target="_blank">
-<img src="public/logo/readmeLogo.png" width="350"  />
+<div align="center">
+<a href="https://www.openmlguide.org/" target="_blank" >
+<img src="public/logo/readmeLogo.png" width="380"/>
 </a>
+</div>
 
-<div align="center" style="margin-top:40px" >
+<div align="center" style="margin-top:30px; margin-bottom: 40px">
 
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/OpenMLGuide)](https://twitter.com/OpenMLGuide)
 [![Discord](https://img.shields.io/discord/1159002716371165194?logo=discord&label=Open%20ML%20Guide)](https://discord.gg/kYYatgzV4p)
