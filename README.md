@@ -1,12 +1,12 @@
 
 <a href="https://www.openmlguide.org/" style="text-decoration: none; color: white "  target="_blank">
-<div align="center" display="flex"  margin-top="10px">
-<img src="public/logo/logo.png" alt="logo" style="width: 58px" height="58px"/>
-<div font-size="40px">OpenML Guide</div>
+<div align="center" style="display: flex; margin-top: 10px">
+<img src="public/logo/logo.png" alt="logo" style="width: 50px" height="50px"/>
+<div style="font-size: 40px">OpenML Guide</div>
 </div>
 </a>
 
-<div align="center" margin-top="40px" >
+<div align="center" style="margin-top:40px" >
 
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/OpenMLGuide)](https://twitter.com/OpenMLGuide)
 [![Discord](https://img.shields.io/discord/1159002716371165194?logo=discord&label=Open%20ML%20Guide)](https://discord.gg/kYYatgzV4p)
