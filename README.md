@@ -1,8 +1,18 @@
+
+<div style="display: flex; justify-content: center">
+<img src="public/logo/logo.png" alt="logo" style="width: 58px" height="58px"/>
+<div style="font-size: 40px">OpenML Guide</div>
+</div>
+
+<div style="justify-content: center; margin-top: 20px">
+
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/OpenMLGuide)](https://twitter.com/OpenMLGuide)
 [![Discord](https://img.shields.io/discord/1159002716371165194?logo=discord&label=Open%20ML%20Guide)](https://discord.gg/kYYatgzV4p)
 [![Website](https://img.shields.io/badge/website-openmlguide.org-green)](http://openmlguide.org/)
 
-# OpenML Guide
+</div>
+
+
 
 The [OpenML Guide](http://openmlguide.org/) is your go-to for enhancing AI expertise, offering a clear progression from basics to advanced concepts. Stay current with the latest AI innovations that reshape the field, accessing free, high-quality resources such as courses, books, tutorials, and research papers. Whether you're starting out or an expert, our open-source initiative is dedicated to streamlining your learning path and aiding mastery in the field.
 
