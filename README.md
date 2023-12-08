@@ -1,10 +1,12 @@
 
-<div style="display: flex; justify-content: center">
+<a href="https://www.openmlguide.org/" style="text-decoration: none; color: white "  target="_blank">
+<div align="center" style="display: flex; align-items: center; justify-content: center; margin-top: 10px;">
 <img src="public/logo/logo.png" alt="logo" style="width: 58px" height="58px"/>
 <div style="font-size: 40px">OpenML Guide</div>
 </div>
+</a>
 
-<div style="justify-content: center; margin-top: 20px">
+<div align="center" style="margin-top: 40px;" >
 
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/OpenMLGuide)](https://twitter.com/OpenMLGuide)
 [![Discord](https://img.shields.io/discord/1159002716371165194?logo=discord&label=Open%20ML%20Guide)](https://discord.gg/kYYatgzV4p)
