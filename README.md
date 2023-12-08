@@ -1,9 +1,6 @@
 
-<a href="https://www.openmlguide.org/" style="text-decoration: none; color: white "  target="_blank">
-<div align="center" style="display: flex; margin-top: 10px">
-<img src="public/logo/logo.png" alt="logo" style="width: 50px" height="50px"/>
-<div style="font-size: 40px">OpenML Guide</div>
-</div>
+<a href="https://www.openmlguide.org/" target="_blank">
+<img src="public/logo/readmeLogo.png" width="350"  />
 </a>
 
 <div align="center" style="margin-top:40px" >
