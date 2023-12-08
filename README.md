@@ -9,7 +9,7 @@
 <div align="center">
 
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/OpenMLGuide)](https://twitter.com/OpenMLGuide)
-[![Discord](https://img.shields.io/discord/1159002716371165194?logo=discord&label=OpenML%20Guide&color=5865F2)](https://discord.gg/kYYatgzV4p)
+[![Discord](https://dcbadge.vercel.app/api/server/QgZHExcssR?style=flat)](https://discord.gg/kYYatgzV4p)
 [![Website](https://img.shields.io/badge/website-openmlguide.org-green)](http://openmlguide.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 </div>
