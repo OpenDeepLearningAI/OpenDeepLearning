@@ -8,9 +8,9 @@
 <br/>
 <div align="center">
 
-[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/OpenMLGuide)](https://twitter.com/OpenMLGuide)
 [![Discord](https://dcbadge.vercel.app/api/server/QgZHExcssR?style=flat)](https://discord.gg/kYYatgzV4p)
-[![Website](https://img.shields.io/badge/website-openmlguide.org-green)](http://openmlguide.org/)
+[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/OpenMLGuide)](https://twitter.com/OpenMLGuide)
+[![Website](https://img.shields.io/badge/website-openmlguide.org-76B900)](http://openmlguide.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 </div>
 <br/>
