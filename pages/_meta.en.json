@@ -1,0 +1,28 @@
+{
+  "index": {
+    "type": "page",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw"
+    }
+  },
+  "ai-portal-gun": {
+    "title": "AI Portal Gun",
+    "type": "page"
+  },
+  "papers": {
+    "title": "Research Papers",
+    "type": "page"
+  },
+  "blog": {
+    "type": "page",
+    "title": "Blog"
+  },
+  "about": {
+    "type": "page",
+    "title": "About",
+    "theme": {
+      "typesetting": "article"
+    }
+  }
+}
