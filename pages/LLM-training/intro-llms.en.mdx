@@ -1,35 +1,37 @@
-# Introduction to Large Language Models
+# Introduction to Large Language Models 
 
-## What is a language model?
+### What is a Language Model?
 
-Language models  is a machine learning model that learn to understand and generate human language. They work by detecting patterns in huge amounts of text data.
 
-For example, a language model could read millions of news articles and books. By going through so much text, it figures out connections between words - which ones often appear together, the tone of certain phrases, and what words best fit at the start or end of a sentence.
+Language models are a type of machine learning model designed to comprehend and generate human language. Their operation revolves around the identification of patterns within extensive sets of textual data.
+A language model might analyze millions of news articles and books, discerning connections between words by examining their frequent co-occurrence, identifying the tonal nuances of specific phrases, and determining suitable word placements at the beginning or end of sentences.
 
 It's like if you read a stack of magazines cover to cover - you'd pick up on language rules and vocabulary even without thinking hard. Language models do this on a massive scale to learn languages.
 
 After this training process, they can predict upcoming words as you type a sentence. They get better at finishing phrases or answering questions as they digest more text. Advanced models can even create coherent stories or summaries on their own! like GPT-4 or Gemini.
 
-Under the hood, these models allocate probabilities to words and combinations of words they have previously encountered. Their functioning involves the estimation of the probability of a token or a sequence of tokens appearing within a longer sequence of tokens. Consider the following sentence:
-
+Under the hood,  these models assign probabilities to words and combinations of words that they have encountered before. Their operation involves estimating the probability of a token or a sequence of tokens appearing within a longer sequence of tokens. Consider the following sentence:
 
 ```js copy 
 As the spaceship landed on Mars, the crew noticed [MASK] on the surface.
 ```
 
-The model has encountered many texts describing Mars landings before. It calculates likelihoods for difference words filling in that [MASK] by checking which terms most commonly appear in similar contexts in those texts.
+The model has encountered many texts describing Mars landings before. It computes the likelihoods for various words to fill in the `[MASK]` by examining the tokens that most frequently appear in comparable contexts within those texts. For example, in the [Fill-Mask](https://huggingface.co/tasks/fill-mask) sentence above, the model may compute probabilities like:
 
-The model may determine probabilities like:
-
-```js copy 
-something 0.205 = 20.5%
-nothing 0.110 = 11.0%
-movement 0.081 = 8.1%
-blood 0.049 = 4.9%
-dust 0.044 = 4.4%
+```js copy
+something 0.205 (20.5%)
+nothing 0.110 (11.0%)
+movement 0.081 (8.1%)
+blood 0.049 (4.9%)
+dust 0.044 (4.4%)
+...
 ```
-These percentages come from all the previous usage examples the model has tracked. It aggregates statistics about how often terms occurred after crew noticing things on Mars in source texts.
 
-The probabilities relate directly to the raw counts and frequencies detected in the model's training data. If "dust" appeared 44 times out of 1,000 total Mars landing descriptions, then 0.044 reflects that historical frequency.
+These percentages come from all the previous usage examples the model has tracked. It aggregates statistics about how often terms occurred after crew noticing things on Mars in source texts.
+The probabilities relate directly to the raw counts and frequencies detected in the model's training data. If `"dust"` appeared 44 times out of 1,000 total Mars landing descriptions, then 0.044 reflects that historical frequency.
 
 This ability for language models to rank possibilities based on apparent likelihoods extracted from large datasets allows generating or completing text reflecting realistic patterns.
+
+### What is a Large Language Model?
+
+
