@@ -1,0 +1,32 @@
+{
+  "index": {
+    "type": "page",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw"
+    }
+  },
+  "ai-portal-gun": {
+    "title": "AI Portal Gun",
+    "type": "page"
+  },
+  "LLM-training": {
+    "title": "LLM Training",
+    "type": "page"
+  },
+  "papers": {
+    "title": "Papers",
+    "type": "page"
+  },
+  "blog": {
+    "type": "page",
+    "title": "Blog"
+  },
+  "about": {
+    "type": "page",
+    "title": "About",
+    "theme": {
+      "typesetting": "article"
+    }
+  }
+}

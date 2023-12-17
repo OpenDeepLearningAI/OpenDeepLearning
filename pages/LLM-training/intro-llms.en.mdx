@@ -1,0 +1,35 @@
+# Introduction to Large Language Models
+
+## What is a language model?
+
+Language models  is a machine learning model that learn to understand and generate human language. They work by detecting patterns in huge amounts of text data.
+
+For example, a language model could read millions of news articles and books. By going through so much text, it figures out connections between words - which ones often appear together, the tone of certain phrases, and what words best fit at the start or end of a sentence.
+
+It's like if you read a stack of magazines cover to cover - you'd pick up on language rules and vocabulary even without thinking hard. Language models do this on a massive scale to learn languages.
+
+After this training process, they can predict upcoming words as you type a sentence. They get better at finishing phrases or answering questions as they digest more text. Advanced models can even create coherent stories or summaries on their own! like GPT-4 or Gemini.
+
+Under the hood, these models allocate probabilities to words and combinations of words they have previously encountered. Their functioning involves the estimation of the probability of a token or a sequence of tokens appearing within a longer sequence of tokens. Consider the following sentence:
+
+
+```js copy 
+As the spaceship landed on Mars, the crew noticed [MASK] on the surface.
+```
+
+The model has encountered many texts describing Mars landings before. It calculates likelihoods for difference words filling in that [MASK] by checking which terms most commonly appear in similar contexts in those texts.
+
+The model may determine probabilities like:
+
+```js copy 
+something 0.205 = 20.5%
+nothing 0.110 = 11.0%
+movement 0.081 = 8.1%
+blood 0.049 = 4.9%
+dust 0.044 = 4.4%
+```
+These percentages come from all the previous usage examples the model has tracked. It aggregates statistics about how often terms occurred after crew noticing things on Mars in source texts.
+
+The probabilities relate directly to the raw counts and frequencies detected in the model's training data. If "dust" appeared 44 times out of 1,000 total Mars landing descriptions, then 0.044 reflects that historical frequency.
+
+This ability for language models to rank possibilities based on apparent likelihoods extracted from large datasets allows generating or completing text reflecting realistic patterns.
