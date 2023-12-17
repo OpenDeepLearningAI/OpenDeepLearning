@@ -1,6 +1,7 @@
 {
   "-- The Basics": {
-    "type": "separator"
+    "type": "separator",
+    "title": "The Basics"
   },
   "intro-llms": "Intro to LLMs"
 }
