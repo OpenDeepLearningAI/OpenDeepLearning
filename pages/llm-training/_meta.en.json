@@ -1,3 +1,6 @@
-{ 
+{
+  "-- The Basics": {
+    "type": "separator"
+  },
   "intro-llms": "Intro to LLMs"
 }
