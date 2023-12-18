@@ -27,16 +27,6 @@ ul .nx-mt-6 {
 }
 /* ------------------- */
 
-/* icons */
-.nx-w-8 svg:hover {
-  color: #000;
-}
-
-/* .nx-mx-auto svg:hover {
-  color: #76b900;
-} */
-/* ------------------- */
-
 /* links  */
 .link {
   text-decoration: underline;
