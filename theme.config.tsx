@@ -5,6 +5,8 @@ import { useRouter } from "next/router";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdEdit } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
+import { FaDiscord } from "react-icons/fa";
+import { LuGithub } from "react-icons/lu";
 import Link from 'next/link'
 
 
@@ -37,14 +39,16 @@ const config: DocsThemeConfig = {
   },
   project: {
     link: "https://github.com/severus27/OpenML-Guide",
+    icon:  <FaGithub className="h-[25.5px] w-[25.5px] hover:text-[#76b900]"/>
   },
   chat: {
     link: "https://discord.gg/QgZHExcssR",
+    icon:  <FaDiscord className="h-[25.5px] w-[25.5px] hover:text-[#76b900]"/>
   },
   navbar: {
     extraContent:
     <Link href="https://twitter.com/OpenMLGuide" target="_blank" >
-        <FaXTwitter className="h-6 w-6 ml-2"/>
+        <FaXTwitter className="h-6 w-6 ml-2 hover:text-[#76b900]"/>
     </Link>
   },
   docsRepositoryBase: "https://github.com/severus27/OpenML-Guide/tree/main/",
@@ -57,7 +61,7 @@ const config: DocsThemeConfig = {
     content: (
       <>
         <span style={{ display: "flex", gap: "10px" }}>
-          <FaGithub style={{ width:"18px", height: "18px"}}/>
+          <LuGithub style={{ width:"18px", height: "18px"}}/>
           <span> Report an issue </span>
         </span>
       </>

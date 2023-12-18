@@ -32,14 +32,9 @@ ul .nx-mt-6 {
   color: #000;
 }
 
-.nx-mx-auto svg:hover {
+/* .nx-mx-auto svg:hover {
   color: #76b900;
-}
-
-.nextra-breadcrumb svg {
-  height: 14px !important;
-  width: 14px !important;
-}
+} */
 /* ------------------- */
 
 /* links  */
@@ -67,14 +62,10 @@ ul .nx-mt-6 {
 /* ------------------- */
 
 /* next & previous page link*/
-.nx-flex .nx-items-center .nx-gap-1 svg{
-  height: 20px;
-  width: 20px;
-}
-
 .nx-flex .nx-items-center .nx-gap-1:hover {
   color: #76b900;
 }
+
 /* ------------------- */
 
 /* .nextra-callout{
