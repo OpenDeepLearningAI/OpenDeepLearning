@@ -24,9 +24,28 @@
   },
   "about": {
     "type": "page",
-    "title": "About",
+    "display": "hidden",
     "theme": {
       "typesetting": "article"
+    }
+  },
+  "more": {
+    "title": "More",
+    "type": "menu",
+    "items": {
+      "about": {
+        "title": "About",
+        "href": "/about"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "href": "mailto:openmlguide@gmail.com"
+      },
+      "contribute": {
+        "title": "Contribute",
+        "href": "https://github.com/severus27/OpenML-Guide",
+        "newWindow": true
+      }
     }
   }
 }
