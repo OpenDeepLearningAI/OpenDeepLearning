@@ -43,8 +43,8 @@ const config: DocsThemeConfig = {
   },
   navbar: {
     extraContent:
-    <Link href="https://twitter.com/OpenMLGuide" target="_blank">
-        <FaXTwitter className="twitter_icon"/>
+    <Link href="https://twitter.com/OpenMLGuide" target="_blank" >
+        <FaXTwitter className="h-6 w-6 ml-2"/>
     </Link>
   },
   docsRepositoryBase: "https://github.com/severus27/OpenML-Guide/tree/main/",

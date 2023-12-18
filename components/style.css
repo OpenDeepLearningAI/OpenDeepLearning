@@ -7,12 +7,6 @@
   font-weight: 600;
 }
 
-.twitter_icon {
-  height: 24px;
-  width: 24px;
-  margin-left: 0.5em;
-}
-
 .nx-absolute {
   font-weight: 400 !important;
 }
@@ -40,11 +34,6 @@ ul .nx-mt-6 {
 
 .nx-mx-auto svg:hover {
   color: #76b900;
-}
-
-.nx-w-full .nx-flex svg {
-  height: 24px;
-  width: 24px;
 }
 
 .nextra-breadcrumb svg {
