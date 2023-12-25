@@ -113,7 +113,7 @@ const config: DocsThemeConfig = {
   footer: {
     text: (
       <div className="flex w-full items-center justify-between text-sm">
-        <div>© 2023-{new Date().getFullYear()} OpenML Guide</div>
+        <div>Copyright © {new Date().getFullYear()} OpenML Guide</div>
         <div className="flex gap-6 text-xl">
           <a href="https://www.youtube.com/@OpenMLGuide" target="_blank"><FaYoutube className="hover:text-[#76b900]"/></a>
           <a href="https://github.com/severus27/OpenML-Guide" target="_blank">< FaGithub className="hover:text-[#76b900]"/></a>
