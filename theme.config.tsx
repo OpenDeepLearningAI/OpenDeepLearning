@@ -8,15 +8,14 @@ import { FaGithub } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { LuGithub } from "react-icons/lu";
 import { FaYoutube } from "react-icons/fa";
-import Link from 'next/link'
-
+import Link from "next/link";
 
 const config: DocsThemeConfig = {
   logo: (
     <>
       <img src="/logo/logo.png" width={30} />
-      <span style={{ marginLeft: ".2em" , fontSize:"20px"}}>
-        <span className="logoName">OpenML Guide </span> 
+      <span style={{ marginLeft: ".2em", fontSize: "20px" }}>
+        <span className="logoName">OpenML Guide </span>
       </span>
     </>
   ),
@@ -40,17 +39,18 @@ const config: DocsThemeConfig = {
   },
   project: {
     link: "https://github.com/severus27/OpenML-Guide",
-    icon:  <FaGithub className="h-[25.5px] w-[25.5px] hover:text-[#76b900]"/>
+    icon: <FaGithub className="h-[25.5px] w-[25.5px] hover:text-[#76b900]" />,
   },
   chat: {
     link: "https://discord.gg/QgZHExcssR",
-    icon:  <FaDiscord className="h-[25.5px] w-[25.5px] hover:text-[#76b900]"/>
+    icon: <FaDiscord className="h-[25.5px] w-[25.5px] hover:text-[#76b900]" />,
   },
   navbar: {
-    extraContent:
-    <Link href="https://twitter.com/OpenMLGuide" target="_blank" >
-        <FaXTwitter className="h-6 w-6 ml-2 hover:text-[#76b900]"/>
-    </Link>
+    extraContent: (
+      <Link href="https://twitter.com/OpenMLGuide" target="_blank">
+        <FaXTwitter className="h-6 w-6 ml-2 hover:text-[#76b900]" />
+      </Link>
+    ),
   },
   docsRepositoryBase: "https://github.com/severus27/OpenML-Guide/tree/main/",
   feedback: {
@@ -58,7 +58,7 @@ const config: DocsThemeConfig = {
     content: (
       <>
         <span style={{ display: "flex", gap: "10px" }}>
-          <LuGithub style={{ width:"18px", height: "18px"}}/>
+          <LuGithub style={{ width: "18px", height: "18px" }} />
           <span> Report an issue </span>
         </span>
       </>
@@ -68,7 +68,7 @@ const config: DocsThemeConfig = {
     text: (
       <>
         <span style={{ display: "flex", gap: "10px" }}>
-          <MdEdit style={{ width:"18px", height: "18px"}}/>
+          <MdEdit style={{ width: "18px", height: "18px" }} />
           <span> Edit this page </span>
         </span>
       </>
@@ -103,22 +103,30 @@ const config: DocsThemeConfig = {
     defaultTheme: "dark",
   },
   banner: {
-    key: 'OpenML Guide',
+    key: "OpenML Guide",
     text: (
       <a href="https://github.com/severus27/OpenML-Guide" target="_blank">
-        Show some love to the OpenML Guide on GitHub—hit it up with a ⭐! 
+        Show some love to the OpenML Guide on GitHub—hit it up with a ⭐!
       </a>
-    )
+    ),
   },
   footer: {
     text: (
       <div className="flex w-full items-center justify-between text-sm">
         <div>Copyright © {new Date().getFullYear()} OpenML Guide</div>
         <div className="flex gap-6 text-xl">
-          <a href="https://www.youtube.com/@OpenMLGuide" target="_blank"><FaYoutube className="hover:text-[#76b900]"/></a>
-          <a href="https://github.com/severus27/OpenML-Guide" target="_blank">< FaGithub className="hover:text-[#76b900]"/></a>
-          <a href="https://discord.com/invite/QgZHExcssR" target="_blank"><FaDiscord className="hover:text-[#76b900]"/></a>
-          <a href="https://twitter.com/OpenMLGuide" target="_blank"><FaXTwitter className="hover:text-[#76b900]"/></a>
+          <a href="https://www.youtube.com/@OpenMLGuide" target="_blank">
+            <FaYoutube className="hover:text-[#76b900]" />
+          </a>
+          <a href="https://github.com/severus27/OpenML-Guide" target="_blank">
+            <FaGithub className="hover:text-[#76b900]" />
+          </a>
+          <a href="https://discord.com/invite/QgZHExcssR" target="_blank">
+            <FaDiscord className="hover:text-[#76b900]" />
+          </a>
+          <a href="https://twitter.com/OpenMLGuide" target="_blank">
+            <FaXTwitter className="hover:text-[#76b900]" />
+          </a>
         </div>
       </div>
     ),
