@@ -81,7 +81,7 @@ const config: DocsThemeConfig = {
   sidebar: {
     toggleButton: true,
   },
-  gitTimestamp: null,
+  // gitTimestamp: null,
   useNextSeoProps() {
     const { asPath } = useRouter();
     if (asPath == "/") {

@@ -74,6 +74,10 @@ ul .nx-mt-6 {
   line-height: 28px;
 } */
 
+.nextra-toc .nextra-scrollbar UL a{
+  font-weight: 500 !important;
+}
+
 #main {
   display: table;
   width: 100%;
