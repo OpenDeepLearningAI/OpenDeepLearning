@@ -8,6 +8,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { LuGithub } from "react-icons/lu";
 import { FaYoutube } from "react-icons/fa";
+import { TbMailFilled } from "react-icons/tb";
 import Link from "next/link";
 
 const config: DocsThemeConfig = {
@@ -117,6 +118,9 @@ const config: DocsThemeConfig = {
         <div className="flex gap-6 text-xl">
           <a href="https://www.youtube.com/@OpenMLGuide" target="_blank">
             <FaYoutube className="hover:text-[#76b900]" />
+          </a>
+          <a href="mailto:openmlguide@gmail.com" target="_blank">
+            <TbMailFilled className="hover:text-[#76b900]" />
           </a>
           <a href="https://github.com/severus27/OpenML-Guide" target="_blank">
             <FaGithub className="hover:text-[#76b900]" />
