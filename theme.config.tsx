@@ -2,21 +2,18 @@ import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
 import { useConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
+import { FaGithub, FaDiscord, FaYoutube } from "react-icons/fa";
+import { TbMailFilled } from "react-icons/tb";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdEdit } from "react-icons/md";
-import { FaGithub } from "react-icons/fa";
-import { FaDiscord } from "react-icons/fa";
-import { LuGithub } from "react-icons/lu";
-import { FaYoutube } from "react-icons/fa";
-import { TbMailFilled } from "react-icons/tb";
 import Link from "next/link";
 
 const config: DocsThemeConfig = {
   logo: (
     <>
       <img src="/logo/logo.png" width={30} />
-      <span style={{ marginLeft: ".2em", fontSize: "20px" }}>
-        <span className="logoName">OpenML Guide </span>
+      <span className="ml-1 text-xl font-semibold">
+        <span> OpenML Guide</span>
       </span>
     </>
   ),
@@ -58,8 +55,8 @@ const config: DocsThemeConfig = {
     useLink: () => "https://github.com/severus27/OpenML-Guide/issues/new",
     content: (
       <>
-        <span style={{ display: "flex", gap: "10px" }}>
-          <LuGithub style={{ width: "18px", height: "18px" }} />
+        <span className="flex gap-2.5">
+          <FaGithub className="w-[18px] h-[18px]"/>
           <span> Report an issue </span>
         </span>
       </>
@@ -68,8 +65,8 @@ const config: DocsThemeConfig = {
   editLink: {
     text: (
       <>
-        <span style={{ display: "flex", gap: "10px" }}>
-          <MdEdit style={{ width: "18px", height: "18px" }} />
+        <span className="flex gap-2.5">
+          <MdEdit className="w-[18px] h-[18px]"/>
           <span> Edit this page </span>
         </span>
       </>
@@ -114,8 +111,13 @@ const config: DocsThemeConfig = {
   footer: {
     text: (
       <div className="flex w-full items-center justify-between text-sm">
-        <div>Copyright © {new Date().getFullYear()} OpenML Guide</div>
-        <div className="flex gap-6 text-xl">
+        <div className="flex">
+          <img src="/logo/logo.png" width={25} />
+          <div className="ml-1 text-sm">
+            <span> <span className="font-semibold">OpenML Guide</span> © 2023-{new Date().getFullYear()} </span>
+          </div>
+        </div>
+        <div className="flex gap-5 text-xl">
           <a href="https://www.youtube.com/@OpenMLGuide" target="_blank">
             <FaYoutube className="hover:text-[#76b900]" />
           </a>
