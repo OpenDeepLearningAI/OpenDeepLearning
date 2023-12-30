@@ -55,9 +55,9 @@ Install [pnpm](https://pnpm.io/installation) if not present in your system.
 git clone https://github.com/severus27/OpenML-Guide.git
 
 # install the dependencies.
-run `pnpm i`
+pnpm i
 
 # start the development server
-run `pnpm dev`
+pnpm dev
 
 ```
