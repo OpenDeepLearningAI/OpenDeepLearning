@@ -3,10 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.logoName {
-  font-weight: 600;
-}
-
 .nx-absolute {
   font-weight: 400 !important;
 }
