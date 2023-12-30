@@ -6,21 +6,20 @@
       "layout": "raw"
     }
   },
-  "ai-portal-gun": {
-    "title": "AI Portal Gun",
-    "type": "page"
-  },
   "llm-training": {
     "title": "LLM Training",
+    "display": "hidden",
+    "type": "page"
+  },
+  "ai-portal-gun": {
+    "title": "AI Portal Gun",
+    "display": "hidden",
     "type": "page"
   },
   "papers": {
     "title": "Papers",
-    "type": "page"
-  },
-  "blog": {
     "type": "page",
-    "title": "Blog"
+    "display": "hidden"
   },
   "about": {
     "type": "page",
@@ -29,8 +28,36 @@
       "typesetting": "article"
     }
   },
-  "more": {
-    "title": "More",
+  "courses": {
+    "title": "Courses",
+    "type": "menu",
+    "items": {
+      "llm-training": {
+        "title": "LLM Training",
+        "href": "/llm-training/intro-llms/"
+      }
+    }
+  },
+  "resources": {
+    "title": "Resources",
+    "type": "menu",
+    "items": {
+      "papers": {
+        "title": "Research Papers",
+        "href": "/papers/papers/"
+      },
+      "ai-portal-gun": {
+        "title": "AI Portal Gun",
+        "href": "/ai-portal-gun/ai-portal-gun/"
+      }
+    }
+  },
+  "blog": {
+    "type": "page",
+    "title": "Blog"
+  },
+  "About": {
+    "title": "About",
     "type": "menu",
     "items": {
       "about": {
@@ -38,7 +65,7 @@
         "href": "/about"
       },
       "contact": {
-        "title": "Contact Us",
+        "title": "Contact",
         "href": "mailto:openmlguide@gmail.com"
       },
       "contribute": {
