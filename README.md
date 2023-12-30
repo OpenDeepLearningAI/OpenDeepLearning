@@ -1,4 +1,3 @@
-
 <div align="center">
   <a href="https://www.openmlguide.org/" target="_blank" >
     <img src="public/logo/readmeLogo.png" alt="OpenML Guide" width="500"/>
@@ -12,6 +11,7 @@
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/OpenMLGuide)](https://twitter.com/OpenMLGuide)
 [![Website](https://img.shields.io/badge/website-openmlguide.org-76B900)](http://openmlguide.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 </div>
 <br/>
 
@@ -46,6 +46,15 @@ Contributions to the guide are welcome! Here are some ways you can help:
 
 ## Running the guide locally
 
-1. Install [`pnpm`](https://pnpm.io/installation) if not present in your system.
-1. run `pnpm i` to install the dependencies.
-1. run `pnpm dev` to start the development server at [`http://localhost:3000/`](http://localhost:3000/)
+Ensure that you have Node version >= 18.X.X . Subsequently, execute the following commands in a terminal:
+
+```
+# download the website code with git
+git clone https://github.com/severus27/OpenML-Guide.git
+Install [pnpm](https://pnpm.io/installation) if not present in your system.
+# install the dependencies.
+run `pnpm i`
+# start the development server at [`http://localhost:3000/`](http://localhost:3000/)
+run `pnpm dev`
+
+```
