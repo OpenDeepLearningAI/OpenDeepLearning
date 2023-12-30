@@ -48,13 +48,16 @@ Contributions to the guide are welcome! Here are some ways you can help:
 
 Ensure that you have Node version >= 18.X.X . Subsequently, execute the following commands in a terminal:
 
+Install [pnpm](https://pnpm.io/installation) if not present in your system.
+
 ```
 # download the website code with git
 git clone https://github.com/severus27/OpenML-Guide.git
-Install [pnpm](https://pnpm.io/installation) if not present in your system.
+
 # install the dependencies.
 run `pnpm i`
-# start the development server at [`http://localhost:3000/`](http://localhost:3000/)
+
+# start the development server
 run `pnpm dev`
 
 ```
