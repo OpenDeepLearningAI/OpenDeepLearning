@@ -44,6 +44,8 @@ Contributions to the guide are welcome! Here are some ways you can help:
 
 - **Translate the website into another language:** We need assistance translating the site into various languages. If interested, join our [Discord community](https://discord.gg/sPEeV3E7tS) and indicate your interest in the corresponding language, or simply push the repository. For additional information, refer to the [Next.js i18 docs](https://nextra.site/docs/guide/i18n).
 
+For more information, kindly refer to the instructions provided on the [contribution page](https://www.openmlguide.org/contribute/).
+
 ## Running the guide locally
 
 Ensure that you have Node version >= 18.X.X . Subsequently, execute the following commands in a terminal:
@@ -59,5 +61,4 @@ pnpm i
 
 # start the development server
 pnpm dev
-
 ```
