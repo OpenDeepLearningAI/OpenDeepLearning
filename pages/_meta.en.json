@@ -28,6 +28,13 @@
       "typesetting": "article"
     }
   },
+  "contribute": {
+    "type": "page",
+    "display": "hidden",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
   "courses": {
     "title": "Courses",
     "type": "menu",
@@ -70,8 +77,7 @@
       },
       "contribute": {
         "title": "Contribute",
-        "href": "https://github.com/severus27/OpenML-Guide",
-        "newWindow": true
+        "href": "/contribute"
       }
     }
   }
