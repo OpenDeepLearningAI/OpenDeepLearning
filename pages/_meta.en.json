@@ -11,6 +11,11 @@
     "display": "hidden",
     "type": "page"
   },
+  "machine-learning": {
+    "title": "Machine Learning",
+    "display": "hidden",
+    "type": "page"
+  },
   "ai-portal-gun": {
     "title": "AI Portal Gun",
     "display": "hidden",
@@ -42,6 +47,10 @@
       "llm-training": {
         "title": "LLM Training",
         "href": "/llm-training/intro-llms/"
+      },
+      "machine-learning": {
+        "title": "Machine Learning",
+        "href": "/machine-learning/ml-intro"
       }
     }
   },
