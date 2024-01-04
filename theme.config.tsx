@@ -12,7 +12,7 @@ const config: DocsThemeConfig = {
   logo: (
     <>
       <img src="/logo/logo.png" width={30} />
-      <span className="text-xl font-semibold ml-[0.8px]">
+      <span className="text-[18.5px] font-semibold ml-[0.8px]">
         <span>Open DeepLearning</span>
       </span>
     </>
