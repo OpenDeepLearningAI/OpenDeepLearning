@@ -8,14 +8,14 @@
 <div align="center">
 
 [![Discord](https://dcbadge.vercel.app/api/server/QgZHExcssR?style=flat)](https://discord.gg/kYYatgzV4p)
-[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/OpenMLGuide)](https://twitter.com/OpenMLGuide)
+[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/Open_DL_AI)](https://twitter.com/Open_DL_AI)
 [![Website](https://img.shields.io/badge/website-openmlguide.org-76B900)](http://openmlguide.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 </div>
 <br/>
 
-OpenML Guide is your go-to for enhancing AI expertise, offering a clear progression from basics to advanced concepts. Stay current with the latest AI innovations that reshape the field, accessing free, high-quality resources such as courses, books, tutorials, and research papers. Whether you're starting out or an expert, our open-source initiative is dedicated to streamlining your learning path and aiding mastery in the field.
+Open DeepLearning is your go-to for enhancing AI expertise, offering a clear progression from basics to advanced concepts. Stay current with the latest AI innovations that reshape the field, accessing free, high-quality resources such as courses, books, tutorials, and research papers. Whether you're starting out or an expert, our open-source initiative is dedicated to streamlining your learning path and aiding mastery in the field.
 
 Our goal is to simplify your learning journey with a clear roadmap to mastery.
 

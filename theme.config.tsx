@@ -12,8 +12,8 @@ const config: DocsThemeConfig = {
   logo: (
     <>
       <img src="/logo/logo.png" width={30} />
-      <span className="ml-1 text-xl font-semibold">
-        <span> OpenML Guide</span>
+      <span className="text-xl font-semibold ml-[0.8px]">
+        <span>Open DeepLearning</span>
       </span>
     </>
   ),
@@ -45,7 +45,7 @@ const config: DocsThemeConfig = {
   },
   navbar: {
     extraContent: (
-      <Link href="https://twitter.com/OpenMLGuide" target="_blank">
+      <Link href="https://twitter.com/Open_DL_AI" target="_blank">
         <FaXTwitter className="h-6 w-6 ml-2 hover:text-[#76b900]" />
       </Link>
     ),
@@ -83,12 +83,12 @@ const config: DocsThemeConfig = {
     const { asPath } = useRouter();
     if (asPath == "/") {
       return {
-        titleTemplate: "OpenML Guide",
+        titleTemplate: "Open DeepLearning",
       };
     }
     if (asPath !== "/") {
       return {
-        titleTemplate: "%s | OpenML Guide",
+        titleTemplate: "%s | Open DeepLearning",
       };
     }
   },
@@ -104,7 +104,7 @@ const config: DocsThemeConfig = {
     key: "OpenML Guide",
     text: (
       <a href="https://github.com/severus27/OpenML-Guide" target="_blank">
-        Show some love to the OpenML Guide on GitHub—hit it up with a ⭐!
+        Go give a ⭐ to Open DeepLearning on GitHub! 
       </a>
     ),
   },
@@ -114,23 +114,23 @@ const config: DocsThemeConfig = {
         <div className="flex">
           <img src="/logo/logo.png" width={25} />
           <div className="ml-1 text-sm">
-            <span> <span className="font-semibold">OpenML Guide</span> © 2023-{new Date().getFullYear()} </span>
+            <span> <span className="font-semibold">Open DeepLearning</span> © 2023-{new Date().getFullYear()} </span>
           </div>
         </div>
         <div className="flex gap-5 text-xl">
-          <a href="https://www.youtube.com/@OpenMLGuide" target="_blank">
+          <a href="https://www.youtube.com/@Open_DeepLearning" target="_blank">
             <FaYoutube className="hover:text-[#76b900]" />
           </a>
           <a href="mailto:openmlguide@gmail.com" target="_blank">
             <TbMailFilled className="hover:text-[#76b900]" />
           </a>
-          <a href="https://github.com/severus27/OpenML-Guide" target="_blank">
+          <a href="https://github.com/open-deeplearning" target="_blank">
             <FaGithub className="hover:text-[#76b900]" />
           </a>
           <a href="https://discord.com/invite/QgZHExcssR" target="_blank">
             <FaDiscord className="hover:text-[#76b900]" />
           </a>
-          <a href="https://twitter.com/OpenMLGuide" target="_blank">
+          <a href="https://twitter.com/Open_DL_AI" target="_blank">
             <FaXTwitter className="hover:text-[#76b900]" />
           </a>
         </div>
