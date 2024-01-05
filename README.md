@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://www.openmlguide.org/" target="_blank" >
-    <img src="public/logo/readmeLogo.png" alt="OpenML Guide" width="500"/>
+    <img src="public/logo/readmeLogo.png" alt="OpenML Guide" width="450"/>
   </a>
 </div>
 
@@ -26,7 +26,7 @@ Your feedback is the cornerstone of this guide! Whether you have queries, though
 - Make an issue on [GitHub](https://github.com/severus27/OpenML-Guide)
 - Email us at [openmlguide@gmail.com](mailto:openmlguide@gmail.com)
 - Join our [Discord community](https://discord.gg/sPEeV3E7tS)
-- Follow us on [Twitter](https://twitter.com/AIPortalGun)
+- Follow us on [Twitter](https://twitter.com/Open_DL_AI)
 
 Consider your feedback as the algorithmic tweak that fine-tunes our ML guide for maximum awesomeness. Your thoughts are the code to an upgraded learning experience.
 
