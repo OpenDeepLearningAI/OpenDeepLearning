@@ -12,8 +12,8 @@ const config: DocsThemeConfig = {
   logo: (
     <>
       <img src="/logo/logo.png" width={30} />
-      <span className="text-[18.5px] font-semibold ml-[0.8px]">
-        <span>Open DeepLearning</span>
+      <span className="text-[19px] font-semibold ml-1">
+        <span> Open DeepLearning </span>
       </span>
     </>
   ),
@@ -56,7 +56,7 @@ const config: DocsThemeConfig = {
     content: (
       <>
         <span className="flex gap-2.5">
-          <FaGithub className="w-[18px] h-[18px]"/>
+          <FaGithub className="w-[18px] h-[18px]" />
           <span> Report an issue </span>
         </span>
       </>
@@ -66,7 +66,7 @@ const config: DocsThemeConfig = {
     text: (
       <>
         <span className="flex gap-2.5">
-          <MdEdit className="w-[18px] h-[18px]"/>
+          <MdEdit className="w-[18px] h-[18px]" />
           <span> Edit this page </span>
         </span>
       </>
@@ -103,19 +103,16 @@ const config: DocsThemeConfig = {
   banner: {
     key: "OpenML Guide",
     text: (
-      <a href="https://github.com/severus27/OpenML-Guide" target="_blank">
-        Go give a ⭐ to Open DeepLearning on GitHub! 
+      <a href="https://github.com/severus27/OpenML-Guide" target="_blank" className="text-semibold">
+        Go give a ⭐ to Open DeepLearning on GitHub!
       </a>
     ),
   },
   footer: {
     text: (
       <div className="flex w-full items-center justify-between text-sm">
-        <div className="flex">
-          <img src="/logo/logo.png" width={25} />
-          <div className="ml-1 text-sm">
-            <span> <span className="font-semibold">Open DeepLearning</span> © 2023-{new Date().getFullYear()} </span>
-          </div>
+        <div className="ml-1 text-sm">
+          <span> Open DeepLearning © 2023-{new Date().getFullYear()} </span>
         </div>
         <div className="flex gap-5 text-xl">
           <a href="https://www.youtube.com/@Open_DeepLearning" target="_blank">
