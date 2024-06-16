@@ -13,7 +13,7 @@ const config: DocsThemeConfig = {
     <>
       <img src="/logo/logo.png" width={30} />
       <span className="text-[19px] font-semibold ml-1">
-        <span> Open DeepLearning </span>
+        <span> OpenMLGuide </span>
       </span>
     </>
   ),
