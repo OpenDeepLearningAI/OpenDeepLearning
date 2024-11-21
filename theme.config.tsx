@@ -88,7 +88,7 @@ const config: DocsThemeConfig = {
     }
     if (asPath !== "/") {
       return {
-        titleTemplate: "%s | Open DeepLearning",
+        titleTemplate: "%s | OpenDeepLearning",
       };
     }
   },
@@ -104,7 +104,7 @@ const config: DocsThemeConfig = {
     key: "OpenML Guide",
     text: (
       <a href="https://github.com/severus27/OpenML-Guide" target="_blank" className="text-semibold">
-        Go give a ⭐ to Open DeepLearning on GitHub!
+        Go give a ⭐ to OpenDeepLearning on GitHub!
       </a>
     ),
   },
@@ -112,7 +112,7 @@ const config: DocsThemeConfig = {
     text: (
       <div className="flex w-full items-center justify-between text-sm">
         <div className="ml-1 text-sm">
-          <span> Open DeepLearning © 2023-{new Date().getFullYear()} </span>
+          <span> OpenDeepLearning © 2023-{new Date().getFullYear()} </span>
         </div>
         <div className="flex gap-5 text-xl">
           <a href="https://www.youtube.com/@Open_DeepLearning" target="_blank">
